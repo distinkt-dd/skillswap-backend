@@ -7,15 +7,14 @@ import { cleanStringArray } from '../utils/clean-array'
 export const getOffers = async (req: Request, res: Response) => {
 	try {
 		const offers = await prisma.offer.findMany()
-		// Преобразуем JSON поля в массивы
 		const formatted = offers.map(offer => ({
 			...offer,
 			images: offer.images as string[],
-			userLikedIds: offer.userLikedIds as string[]
+			userLikedIds: offer.userLikedIds as string[],
 		}))
 		res.json(formatted as TOffer[])
 	} catch (error) {
-		res.status(500).json({ error: 'Failed to fetch offers' })
+		res.status(500).json({ error: 'Упс! Что то не так!' })
 	}
 }
 
@@ -24,38 +23,37 @@ export const getOfferById = async (req: Request, res: Response) => {
 		const { id } = req.params
 		const offerId = Array.isArray(id) ? id[0] : id
 		const offer = await prisma.offer.findUnique({ where: { id: offerId } })
-		if (!offer) return res.status(404).json({ error: 'Offer not found' })
+		if (!offer)
+			return res.status(404).json({ error: 'Предложение не найдено!' })
 		res.json({
 			...offer,
 			images: offer.images as string[],
-			userLikedIds: offer.userLikedIds as string[]
+			userLikedIds: offer.userLikedIds as string[],
 		} as TOffer)
 	} catch (error) {
-		res.status(500).json({ error: 'Failed to fetch offer' })
+		res.status(500).json({ error: 'Упс! Что то не так!' })
 	}
 }
 
 export const createOffer = async (req: AuthRequest, res: Response) => {
 	try {
-		const userId = req.userId // из токена
+		const userId = req.userId
 		if (!userId) {
-			return res.status(401).json({ error: 'Unauthorized' })
+			return res.status(401).json({ error: 'Пользователь не авторизован!' })
 		}
 
 		const data: TOfferCreate = req.body
 
-		// Проверяем, существует ли пользователь
 		const user = await prisma.user.findUnique({ where: { id: userId } })
 		if (!user) {
-			return res.status(404).json({ error: 'User not found' })
+			return res.status(404).json({ error: 'Пользователь не найден!' })
 		}
 
-		// Проверяем, существует ли подкатегория
 		const subcategory = await prisma.subcategory.findUnique({
-			where: { id: data.subcategoryId }
+			where: { id: data.subcategoryId },
 		})
 		if (!subcategory) {
-			return res.status(400).json({ error: 'Invalid subcategoryId' })
+			return res.status(400).json({ error: 'Не найдена подкатегория!' })
 		}
 
 		const newOffer = await prisma.offer.create({
@@ -66,18 +64,18 @@ export const createOffer = async (req: AuthRequest, res: Response) => {
 				description: data.description,
 				images: cleanStringArray(data.images),
 				userLikedIds: [],
-				createdAt: new Date().toISOString()
-			}
+				createdAt: new Date().toISOString(),
+			},
 		})
 
 		res.status(201).json({
 			...newOffer,
 			images: newOffer.images as string[],
-			userLikedIds: newOffer.userLikedIds as string[]
+			userLikedIds: newOffer.userLikedIds as string[],
 		})
 	} catch (error) {
-		console.error('Create offer error:', error)
-		res.status(500).json({ error: 'Failed to create offer' })
+		console.error('Ошибка создания оффера:', error)
+		res.status(500).json({ error: 'Упс! Что то не так!' })
 	}
 }
 
@@ -87,7 +85,8 @@ export const updateOffer = async (req: AuthRequest, res: Response) => {
 		const offerId = Array.isArray(id) ? id[0] : id
 		const data = req.body
 		const existing = await prisma.offer.findUnique({ where: { id: offerId } })
-		if (!existing) return res.status(404).json({ error: 'Offer not found' })
+		if (!existing)
+			return res.status(404).json({ error: 'Предложение не найдено' })
 		const updated = await prisma.offer.update({
 			where: { id: offerId },
 			data: {
@@ -96,16 +95,16 @@ export const updateOffer = async (req: AuthRequest, res: Response) => {
 				description: data.description,
 				images: data.images,
 				userLikedIds: data.userLikedIds,
-				updatedAt: new Date().toISOString()
-			}
+				updatedAt: new Date().toISOString(),
+			},
 		})
 		res.json({
 			...updated,
 			images: updated.images as string[],
-			userLikedIds: updated.userLikedIds as string[]
+			userLikedIds: updated.userLikedIds as string[],
 		})
 	} catch (error) {
-		res.status(500).json({ error: 'Failed to update offer' })
+		res.status(500).json({ error: 'Упс! Что то не так!' })
 	}
 }
 
@@ -114,13 +113,14 @@ export const deleteOffer = async (req: AuthRequest, res: Response) => {
 		const { id } = req.params
 		const offerId = Array.isArray(id) ? id[0] : id
 		const existing = await prisma.offer.findUnique({ where: { id: offerId } })
-		if (!existing) return res.status(404).json({ error: 'Offer not found' })
+		if (!existing)
+			return res.status(404).json({ error: 'Предложение не найдено!' })
 		if (existing.userId !== req.userId) {
 			return res.status(403).json({ error: 'Forbidden' })
 		}
 		await prisma.offer.delete({ where: { id: offerId } })
 		res.status(204).send()
 	} catch (error) {
-		res.status(500).json({ error: 'Failed to delete offer' })
+		res.status(500).json({ error: 'Упс! Что то не так!' })
 	}
 }

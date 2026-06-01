@@ -1,0 +1,3514 @@
+{
+	"categories": [
+		{
+			"id": "1",
+			"name": "Бизнес и карьера",
+			"type": "business"
+		},
+		{
+			"id": "2",
+			"name": "Творчество и искусство",
+			"type": "creative"
+		},
+		{
+			"id": "3",
+			"name": "Иностранные языки",
+			"type": "languages"
+		},
+		{
+			"id": "4",
+			"name": "Образование и развитие",
+			"type": "education"
+		},
+		{
+			"id": "5",
+			"name": "Дом и уют",
+			"type": "home"
+		},
+		{
+			"id": "6",
+			"name": "Здоровье и лайфстайл",
+			"type": "health"
+		}
+	],
+	"cities": [
+		{
+			"id": "1",
+			"name": "Москва"
+		},
+		{
+			"id": "2",
+			"name": "Санкт-Петербург"
+		},
+		{
+			"id": "3",
+			"name": "Новосибирск"
+		},
+		{
+			"id": "4",
+			"name": "Екатеринбург"
+		},
+		{
+			"id": "5",
+			"name": "Нижний Новгород"
+		},
+		{
+			"id": "6",
+			"name": "Краснодар"
+		},
+		{
+			"id": "7",
+			"name": "Самара"
+		},
+		{
+			"id": "8",
+			"name": "Омск"
+		},
+		{
+			"id": "9",
+			"name": "Ростов-на-Дону"
+		},
+		{
+			"id": "10",
+			"name": "Уфа"
+		},
+		{
+			"id": "11",
+			"name": "Кемерово"
+		},
+		{
+			"id": "12",
+			"name": "Пермь"
+		},
+		{
+			"id": "13",
+			"name": "Воронеж"
+		},
+		{
+			"id": "14",
+			"name": "Саратов"
+		},
+		{
+			"id": "15",
+			"name": "Тамбов"
+		},
+		{
+			"id": "16",
+			"name": "Елабуга"
+		},
+		{
+			"id": "17",
+			"name": "Рязань"
+		}
+	],
+	"offers": [
+		{
+			"id": "1",
+			"userId": "1",
+			"name": "Создание личного бренда",
+			"subcategoryId": "4",
+			"createdAt": "2026-02-12T19:00:00.000Z",
+			"description": "Помогу вам сформировать сильный личный бренд, разработать стратегию продвижения и повысить узнаваемость среди целевой аудитории.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["2", "5", "7"]
+		},
+		{
+			"id": "2",
+			"userId": "2",
+			"name": "Основы тайм-менеджмента",
+			"subcategoryId": "6",
+			"createdAt": "2026-02-13T19:00:00.000Z",
+			"description": "Научу вас грамотно планировать своё время, расставлять приоритеты и успевать больше.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["e458"]
+		},
+		{
+			"id": "3",
+			"userId": "3",
+			"name": "Эффективные продажи B2B",
+			"subcategoryId": "3",
+			"createdAt": "2026-02-14T19:00:00.000Z",
+			"description": "Поделюсь проверенными техниками успешных переговоров и заключения сделок в сегменте B2B.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["4", "6", "8", "10", "e458"]
+		},
+		{
+			"id": "4",
+			"userId": "4",
+			"name": "Разработка резюме премиум-класса",
+			"subcategoryId": "5",
+			"createdAt": "2026-02-15T19:00:00.000Z",
+			"description": "Сделаю ваше резюме ярким, убедительным и привлекательным для работодателей.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["e458"]
+		},
+		{
+			"id": "5",
+			"userId": "5",
+			"name": "Управление проектами Agile-методом",
+			"subcategoryId": "7",
+			"createdAt": "2026-02-16T19:00:00.000Z",
+			"description": "Покажу, как применять гибкий подход управления проектами и повышать эффективность команды.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["3", "9"]
+		},
+		{
+			"id": "6",
+			"userId": "6",
+			"name": "Запуск собственного стартапа",
+			"subcategoryId": "8",
+			"createdAt": "2026-02-17T19:00:00.000Z",
+			"description": "Расскажу пошагово, как запустить успешный стартап с минимальными рисками и инвестициями.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["2", "11", "14"]
+		},
+		{
+			"id": "7",
+			"userId": "7",
+			"name": "Немецкий язык для поездок в германию",
+			"subcategoryId": "20",
+			"createdAt": "2026-02-18T19:00:00.000Z",
+			"description": "За короткий срок подготовлю вас к самостоятельному путешествию по немецкоязычным странам.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": [
+				"4",
+				"6",
+				"8",
+				"10",
+				"12",
+				"14",
+				"caa5",
+				"e458",
+				"3bf0",
+				"aad5"
+			]
+		},
+		{
+			"id": "8",
+			"userId": "8",
+			"name": "Рисунок акварелью",
+			"subcategoryId": "9",
+			"createdAt": "2026-02-19T19:00:00.000Z",
+			"description": "Научу рисовать пейзажи и портреты акварельными красками, раскрою секреты смешивания цветов и передачи настроения.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["5"]
+		},
+		{
+			"id": "9",
+			"userId": "9",
+			"name": "Портретная фотография",
+			"subcategoryId": "10",
+			"createdAt": "2026-02-20T19:00:00.000Z",
+			"description": "Проведу мастер-класс по созданию выразительных портретов, научу правильно выставлять свет и обрабатывать снимки.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["2", "3", "7"]
+		},
+		{
+			"id": "10",
+			"userId": "10",
+			"name": "Монтаж видеороликов",
+			"subcategoryId": "11",
+			"createdAt": "2026-03-02T19:00:00.000Z",
+			"description": "Обучу монтажу профессиональных видеороликов, покажу приёмы обработки и добавления эффектов.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": []
+		},
+		{
+			"id": "11",
+			"userId": "11",
+			"name": "Создание музыкальных треков",
+			"subcategoryId": "12",
+			"createdAt": "2026-03-03T19:00:00.000Z",
+			"description": "Научу основам написания музыки и звукорежиссуры, поможем записать качественный трек.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["9", "10"]
+		},
+		{
+			"id": "12",
+			"userId": "12",
+			"name": "Постановочная актёрская игра",
+			"subcategoryId": "13",
+			"createdAt": "2026-03-04T19:00:00.000Z",
+			"description": "Проведу тренинг по актёрскому мастерству, раскрытие творческого потенциала и работа над голосом.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["6", "11", "15"]
+		},
+		{
+			"id": "13",
+			"userId": "13",
+			"name": "Креативный сторителлинг",
+			"subcategoryId": "14",
+			"createdAt": "2026-03-05T19:00:00.000Z",
+			"description": "Научу писать интересные истории и привлекать внимание читателей.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["2"]
+		},
+		{
+			"id": "14",
+			"userId": "14",
+			"name": "Арт-терапевтические сессии",
+			"subcategoryId": "15",
+			"createdAt": "2026-03-06T19:00:00.000Z",
+			"description": "Проведу арт-терапевтические сеансы для снятия стресса и эмоционального восстановления.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["3", "4", "5", "8"]
+		},
+		{
+			"id": "15",
+			"userId": "15",
+			"name": "Интерьерный декор своими руками",
+			"subcategoryId": "16",
+			"createdAt": "2026-03-07T19:00:00.000Z",
+			"description": "Научу создавать оригинальные декоративные изделия для вашего дома.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": []
+		},
+		{
+			"id": "16",
+			"userId": "16",
+			"name": "Интенсивный английский разговорный уровень",
+			"subcategoryId": "17",
+			"createdAt": "2026-03-08T19:00:00.000Z",
+			"description": "Быстро подтяну ваш разговорный английский, подготовлю к путешествию или деловой поездке.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["7", "12"]
+		},
+		{
+			"id": "17",
+			"userId": "17",
+			"name": "Французский язык для начинающих",
+			"subcategoryId": "18",
+			"createdAt": "2026-03-09T19:00:00.000Z",
+			"description": "Начнём изучение французского языка с нуля, освоим базовые конструкции и повседневную лексику.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["2", "9", "13"]
+		},
+		{
+			"id": "18",
+			"userId": "18",
+			"name": "Практический испанский язык",
+			"subcategoryId": "19",
+			"createdAt": "2026-03-10T19:00:00.000Z",
+			"description": "Научу свободно общаться на испанском языке, разберём грамматику и культурные особенности.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": []
+		},
+		{
+			"id": "19",
+			"userId": "19",
+			"name": "Немецкий язык для туристов",
+			"subcategoryId": "20",
+			"createdAt": "2026-03-11T19:00:00.000Z",
+			"description": "За короткий срок подготовлю вас к самостоятельному путешествию по немецкоязычным странам.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["6", "8"]
+		},
+		{
+			"id": "20",
+			"userId": "20",
+			"name": "Китайский язык для бизнеса",
+			"subcategoryId": "21",
+			"createdAt": "2026-03-12T19:00:00.000Z",
+			"description": "Научу эффективному деловому общению на китайском языке, познакомлю с особенностями культуры Китая.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["4", "10", "14", "16"]
+		},
+		{
+			"id": "21",
+			"userId": "21",
+			"name": "Японский язык для аниме-фанатов",
+			"subcategoryId": "22",
+			"createdAt": "2026-03-13T19:00:00.000Z",
+			"description": "Изучайте японский язык весело и интересно вместе с любимыми героями японских мультфильмов!",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": []
+		},
+		{
+			"id": "22",
+			"userId": "22",
+			"name": "Подготовка к IELTS",
+			"subcategoryId": "23",
+			"createdAt": "2026-03-14T19:00:00.000Z",
+			"description": "Индивидуальная подготовка к экзамену IELTS, отработаем каждый аспект экзамена.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["3", "11"]
+		},
+		{
+			"id": "23",
+			"userId": "23",
+			"name": "Развитие лидерских качеств",
+			"subcategoryId": "24",
+			"createdAt": "2026-03-15T19:00:00.000Z",
+			"description": "Программа личностного роста и развития уверенности в себе, прокачаю вашу харизму и умение вести команду.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": [
+				"5",
+				"7",
+				"9",
+				"12",
+				"15",
+				"caa5",
+				"eJ7RinlTVTI",
+				"e458",
+				"3bf0"
+			]
+		},
+		{
+			"id": "24",
+			"userId": "24",
+			"name": "Эффективные методы запоминания",
+			"subcategoryId": "25",
+			"createdAt": "2026-03-16T19:00:00.000Z",
+			"description": "Методики быстрого запоминания больших объёмов информации, улучшение памяти и концентрации внимания.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["2"]
+		},
+		{
+			"id": "25",
+			"userId": "25",
+			"name": "Скорочтение и быстрое восприятие информации",
+			"subcategoryId": "27",
+			"createdAt": "2026-03-17T19:00:00.000Z",
+			"description": "Повышение скорости чтения и качества усвоения прочитанного материала.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["e458"]
+		},
+		{
+			"id": "26",
+			"userId": "26",
+			"name": "Коучинг карьерного роста",
+			"subcategoryId": "29",
+			"createdAt": "2026-03-15T19:00:00.000Z",
+			"description": "Определим цели вашей карьеры, составим индивидуальный план профессионального развития.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["4", "8"]
+		},
+		{
+			"id": "27",
+			"userId": "27",
+			"name": "Организация домашнего пространства",
+			"subcategoryId": "30",
+			"createdAt": "2026-03-16T19:00:00.000Z",
+			"description": "Научу быстро и удобно организовать пространство квартиры, избавимся от беспорядка навсегда.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["6"]
+		},
+		{
+			"id": "28",
+			"userId": "28",
+			"name": "Семейный бюджет и финансовое планирование",
+			"subcategoryId": "31",
+			"createdAt": "2026-03-17T19:00:00.000Z",
+			"description": "Научу рационально распределять семейный бюджет, экономить и копить деньги.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["2", "3", "5", "7"]
+		},
+		{
+			"id": "29",
+			"userId": "29",
+			"name": "Готовим итальянские блюда дома",
+			"subcategoryId": "32",
+			"createdAt": "2026-03-17T19:00:00.000Z",
+			"description": "Научу готовить настоящие итальянские блюда легко и вкусно прямо у вас дома.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": []
+		},
+		{
+			"id": "30",
+			"userId": "30",
+			"name": "Уход за комнатными растениями",
+			"subcategoryId": "33",
+			"createdAt": "2026-03-19T19:00:00.000Z",
+			"description": "Научу ухаживать за домашними цветами, подбирать подходящие виды растений и поддерживать зелёный уголок дома.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["9", "10", "11", "e458"]
+		},
+		{
+			"id": "31",
+			"userId": "32",
+			"name": "Уход за комнатными растениями",
+			"subcategoryId": "33",
+			"createdAt": "2026-03-21T19:00:00.000Z",
+			"description": "Научу ухаживать за домашними цветами, подбирать подходящие виды растений и поддерживать зелёный уголок дома.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["9", "10", "11", "e458"]
+		},
+		{
+			"id": "32",
+			"userId": "31",
+			"name": "Готовим итальянские блюда дома",
+			"subcategoryId": "32",
+			"createdAt": "2026-03-20T19:00:00.000Z",
+			"description": "Научу готовить настоящие итальянские блюда легко и вкусно прямо у вас дома.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["10", "11", "32", "e458"]
+		},
+		{
+			"userId": "eJ7RinlTVTI",
+			"name": "Тестирование ",
+			"description": "Тестирование ",
+			"subcategoryId": "10",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["eJ7RinlTVTI", "e458"],
+			"createdAt": "2026-03-26T11:01:48.769Z",
+			"id": "M8MQrxY6bv4"
+		},
+		{
+			"id": "f7cf",
+			"userId": "e458",
+			"name": "wrefafsd",
+			"description": "asdasdasdasdasdasd",
+			"subcategoryId": "11",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["e458"],
+			"createdAt": "2026-03-26T12:24:03.487Z"
+		},
+		{
+			"id": "o1a2",
+			"userId": "1",
+			"name": "Маркетинговая стратегия для бизнеса",
+			"subcategoryId": "2",
+			"createdAt": "2026-03-15T10:00:00.000Z",
+			"description": "Разработаю эффективную маркетинговую стратегию, которая привлечет клиентов и увеличит продажи.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["2", "4", "9", "s1z8"]
+		},
+		{
+			"id": "o2b3",
+			"userId": "2",
+			"name": "Портретная съемка на природе",
+			"subcategoryId": "10",
+			"createdAt": "2026-03-16T11:30:00.000Z",
+			"description": "Проведу фотосессию на природе, помогу раскрепоститься перед камерой и получить живые кадры.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["3", "5", "10", "l7w2"]
+		},
+		{
+			"id": "o3c4",
+			"userId": "3",
+			"name": "Функциональный тренинг для всех уровней",
+			"subcategoryId": "40",
+			"createdAt": "2026-03-17T09:15:00.000Z",
+			"description": "Индивидуальные тренировки на выносливость и силу. Подберу нагрузку под ваш уровень.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["6", "14", "26", "n6c1"]
+		},
+		{
+			"id": "o4d5",
+			"userId": "4",
+			"name": "Управление проектами: от идеи до результата",
+			"subcategoryId": "7",
+			"createdAt": "2026-03-18T14:00:00.000Z",
+			"description": "Научу планировать проекты, распределять ресурсы и контролировать сроки. Agile и Scrum.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["1", "7", "9", "s3m0"]
+		},
+		{
+			"id": "o5e6",
+			"userId": "5",
+			"name": "Создание музыки в домашней студии",
+			"subcategoryId": "12",
+			"createdAt": "2026-03-19T16:20:00.000Z",
+			"description": "Научу писать биты, записывать вокал и сводить треки. Для начинающих музыкантов.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["11", "29", "d4h9", "u5h7"]
+		},
+		{
+			"id": "o6f7",
+			"userId": "6",
+			"name": "Кулинарный мастер-класс: итальянская кухня",
+			"subcategoryId": "32",
+			"createdAt": "2026-03-20T12:00:00.000Z",
+			"description": "Научу готовить пасту, ризотто и тирамису. Секреты итальянских шеф-поваров.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["15", "19", "p1b7", "s9m2"]
+		},
+		{
+			"id": "o7g8",
+			"userId": "7",
+			"name": "Программирование на Python с нуля",
+			"subcategoryId": "25",
+			"createdAt": "2026-03-21T10:45:00.000Z",
+			"description": "Обучение Python для начинающих. Напишем первые программы и создадим проекты.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["13", "21", "y3t9", "v6b9"]
+		},
+		{
+			"id": "o8h9",
+			"userId": "8",
+			"name": "Психологическая поддержка: путь к себе",
+			"subcategoryId": "38",
+			"createdAt": "2026-03-22T15:30:00.000Z",
+			"description": "Консультации по вопросам самооценки, тревожности и личностного роста.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["16", "22", "27", "z2n8"]
+		},
+		{
+			"id": "o9i0",
+			"userId": "9",
+			"name": "Стартап-коучинг: от идеи до инвестиций",
+			"subcategoryId": "8",
+			"createdAt": "2026-03-23T09:00:00.000Z",
+			"description": "Помогу упаковать идею, найти первых клиентов и подготовиться к встрече с инвесторами.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["1", "4", "24", "t8y6"]
+		},
+		{
+			"id": "o0j1",
+			"userId": "10",
+			"name": "Акварельная живопись для начинающих",
+			"subcategoryId": "9",
+			"createdAt": "2026-03-24T13:15:00.000Z",
+			"description": "Научу смешивать цвета, работать с заливкой и создавать легкие воздушные работы.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["5", "17", "25", "v2k6"]
+		},
+		{
+			"id": "o1k2",
+			"userId": "11",
+			"name": "Уроки игры на гитаре",
+			"subcategoryId": "12",
+			"createdAt": "2026-03-25T17:00:00.000Z",
+			"description": "Научу играть любимые песни с нуля. Аккорды, бой, перебор и основы теории.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["2", "5", "29", "d4h9"]
+		},
+		{
+			"id": "o2l3",
+			"userId": "12",
+			"name": "Разговорный английский для путешествий",
+			"subcategoryId": "17",
+			"createdAt": "2026-03-26T11:00:00.000Z",
+			"description": "Интенсивный курс разговорного английского. Преодолеем языковой барьер за 4 недели.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["2", "13", "18", "t3l4"]
+		},
+		{
+			"id": "o3m4",
+			"userId": "13",
+			"name": "Скорочтение и развитие памяти",
+			"subcategoryId": "27",
+			"createdAt": "2026-03-27T10:30:00.000Z",
+			"description": "Научу быстро читать и запоминать большие объемы информации. Эффективные техники.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["7", "18", "21", "y3t9"]
+		},
+		{
+			"id": "o4n5",
+			"userId": "14",
+			"name": "Персональные тренировки для здоровья",
+			"subcategoryId": "40",
+			"createdAt": "2026-03-28T08:45:00.000Z",
+			"description": "Программа тренировок с учетом особенностей здоровья. Похудение, тонус, укрепление.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["3", "16", "26", "c2y5"]
+		},
+		{
+			"id": "o5o6",
+			"userId": "15",
+			"name": "Ремонт квартиры под ключ",
+			"subcategoryId": "34",
+			"createdAt": "2026-03-29T12:15:00.000Z",
+			"description": "Выполню косметический и капитальный ремонт. Электрика, сантехника, отделка.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["17", "19", "e3b5", "t5x8"]
+		},
+		{
+			"id": "o6p7",
+			"userId": "16",
+			"name": "Йога-нидра и восстановление",
+			"subcategoryId": "36",
+			"createdAt": "2026-03-30T19:00:00.000Z",
+			"description": "Практика глубокого расслабления. Снимает стресс, улучшает сон и восстанавливает ресурс.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["8", "14", "27", "w5x1"]
+		},
+		{
+			"id": "o7q8",
+			"userId": "17",
+			"name": "Дизайн интерьера для квартиры",
+			"subcategoryId": "16",
+			"createdAt": "2026-03-31T14:30:00.000Z",
+			"description": "Создам стильный и функциональный дизайн-проект с учетом пожеланий и бюджета.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["10", "15", "25", "a7f2"]
+		},
+		{
+			"id": "o8r9",
+			"userId": "18",
+			"name": "Литературный клуб: читаем и обсуждаем",
+			"subcategoryId": "14",
+			"createdAt": "2026-04-01T18:00:00.000Z",
+			"description": "Совместное чтение и обсуждение классической и современной литературы.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["12", "13", "21", "k3y0"]
+		},
+		{
+			"id": "o9s0",
+			"userId": "19",
+			"name": "Курс молодого водителя: городские маршруты",
+			"subcategoryId": "30",
+			"createdAt": "2026-04-02T09:30:00.000Z",
+			"description": "Научу уверенно чувствовать себя в городе, парковаться и ориентироваться в сложных ситуациях.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["6", "15", "t5x8", "o9p6"]
+		},
+		{
+			"id": "o0t1",
+			"userId": "20",
+			"name": "Флористика: создаем букеты",
+			"subcategoryId": "33",
+			"createdAt": "2026-04-03T13:00:00.000Z",
+			"description": "Научу составлять стильные букеты, работать с цветами и создавать флористические композиции.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["6", "10", "h7w4", "p8q0"]
+		},
+		{
+			"id": "o1u2",
+			"userId": "21",
+			"name": "Исторические лекции: загадки прошлого",
+			"subcategoryId": "24",
+			"createdAt": "2026-04-04T16:15:00.000Z",
+			"description": "Цикл лекций об удивительных событиях истории, археологических открытиях и личностях.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["7", "13", "18", "l6b3"]
+		},
+		{
+			"id": "o2v3",
+			"userId": "22",
+			"name": "Логопедические занятия для детей",
+			"subcategoryId": "24",
+			"createdAt": "2026-04-05T10:00:00.000Z",
+			"description": "Помогу поставить звуки, развить речь и подготовиться к школе. Индивидуальный подход.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["8", "16", "z2n8", "n9f6"]
+		},
+		{
+			"id": "o3w4",
+			"userId": "23",
+			"name": "Биология вокруг нас: экскурсии на природу",
+			"subcategoryId": "37",
+			"createdAt": "2026-04-06T11:45:00.000Z",
+			"description": "Образовательные прогулки по паркам. Изучаем растения, птиц и экосистемы.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["3", "14", "e1d4", "k2t6"]
+		},
+		{
+			"id": "o4x5",
+			"userId": "24",
+			"name": "Инвестиции для начинающих",
+			"subcategoryId": "31",
+			"createdAt": "2026-04-07T15:30:00.000Z",
+			"description": "Научу основам инвестирования, разбираться в акциях, облигациях и создавать портфель.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["1", "9", "t8y6", "s1z8"]
+		},
+		{
+			"id": "o5y6",
+			"userId": "25",
+			"name": "Дизайн интерьера: создаем уют",
+			"subcategoryId": "16",
+			"createdAt": "2026-04-08T12:00:00.000Z",
+			"description": "Помогу с выбором стиля, мебели и декора. Создам функциональное и красивое пространство.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["10", "17", "a7f2", "p1n6"]
+		},
+		{
+			"id": "o6z7",
+			"userId": "26",
+			"name": "Спортивное ориентирование и выносливость",
+			"subcategoryId": "40",
+			"createdAt": "2026-04-09T08:30:00.000Z",
+			"description": "Тренировки по бегу и ориентированию. Готовлю к забегам, триатлону и соревнованиям.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["3", "14", "c2y5", "n6c1"]
+		},
+		{
+			"id": "o7a8",
+			"userId": "27",
+			"name": "Терапия тревожности и выгорания",
+			"subcategoryId": "38",
+			"createdAt": "2026-04-10T17:00:00.000Z",
+			"description": "Консультации по работе с тревожностью, выгоранием и эмоциональным состоянием.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["8", "16", "n9c2", "l6b3"]
+		},
+		{
+			"id": "o8b9",
+			"userId": "28",
+			"name": "Студийная фотосессия: портрет",
+			"subcategoryId": "10",
+			"createdAt": "2026-04-11T14:15:00.000Z",
+			"description": "Создам выразительные портреты в студии. Работа со светом, ракурсами и настроением кадра.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["2", "5", "l7w2", "r2p7"]
+		},
+		{
+			"id": "o9c0",
+			"userId": "29",
+			"name": "Уроки фортепиано для взрослых",
+			"subcategoryId": "12",
+			"createdAt": "2026-04-12T10:30:00.000Z",
+			"description": "Научу играть на фортепиано с нуля. Ноты, аккорды, любимые мелодии. Индивидуальный подход.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["5", "11", "d4h9", "w1f9"]
+		},
+		{
+			"id": "o0d1",
+			"userId": "30",
+			"name": "Физика для всех: интересно о сложном",
+			"subcategoryId": "24",
+			"createdAt": "2026-04-13T16:45:00.000Z",
+			"description": "Научу понимать физические явления вокруг нас. Подготовка к экзаменам или для кругозора.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["7", "13", "21", "x9q4"]
+		},
+		{
+			"id": "o1e2",
+			"userId": "31",
+			"name": "Личностный рост и саморазвитие",
+			"subcategoryId": "24",
+			"createdAt": "2026-04-14T11:00:00.000Z",
+			"description": "Курс по постановке целей, развитию уверенности и эффективным привычкам для успешной жизни.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["1", "4", "9", "j4w9"]
+		},
+		{
+			"id": "o2f3",
+			"userId": "32",
+			"name": "Стиль и самопрезентация",
+			"subcategoryId": "4",
+			"createdAt": "2026-04-15T13:30:00.000Z",
+			"description": "Помогу создать гардероб, подчеркнуть достоинства и научиться уверенно представлять себя.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["2", "10", "m9k3", "h4s7"]
+		},
+		{
+			"id": "o3g4",
+			"userId": "aad5",
+			"name": "Навыки продаж для начинающих",
+			"subcategoryId": "3",
+			"createdAt": "2026-04-16T10:15:00.000Z",
+			"description": "Обучение техникам продаж, работе с возражениями и эффективной коммуникации с клиентами.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["1", "4", "9", "j4w9"]
+		},
+		{
+			"id": "o4h5",
+			"userId": "ed18",
+			"name": "Семейный бюджет и накопления",
+			"subcategoryId": "31",
+			"createdAt": "2026-04-17T15:00:00.000Z",
+			"description": "Научу планировать бюджет, экономить и создавать финансовую подушку безопасности для семьи.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["6", "24", "t8y6", "h4s7"]
+		},
+		{
+			"id": "o5i6",
+			"userId": "3bf0",
+			"name": "Рисование для начинающих",
+			"subcategoryId": "9",
+			"createdAt": "2026-04-18T09:30:00.000Z",
+			"description": "Научу основам рисунка, работе с карандашом и красками. Раскроем творческий потенциал вместе.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["10", "17", "v2k6", "b5m9"]
+		},
+		{
+			"id": "o6j7",
+			"userId": "4468",
+			"name": "Веб-разработка: HTML и CSS",
+			"subcategoryId": "25",
+			"createdAt": "2026-04-19T14:00:00.000Z",
+			"description": "Курс по основам верстки сайтов. Научимся создавать красивые и адаптивные веб-страницы.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["7", "13", "y3t9", "v6b9"]
+		},
+		{
+			"id": "o7k8",
+			"userId": "bda2",
+			"name": "Видеомонтаж в Premiere Pro",
+			"subcategoryId": "11",
+			"createdAt": "2026-04-20T11:45:00.000Z",
+			"description": "Научу монтировать видео, работать с переходами, цветокоррекцией и создавать эффектный контент.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["2", "5", "d4h9", "x1r4"]
+		},
+		{
+			"id": "o8l9",
+			"userId": "eJ7RinlTVTI",
+			"name": "Английский для начинающих",
+			"subcategoryId": "17",
+			"createdAt": "2026-04-21T16:15:00.000Z",
+			"description": "Курс английского языка с нуля. Разберем базу, научимся строить простые предложения и говорить о себе.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["2", "12", "18", "t3l4"]
+		},
+		{
+			"id": "o9m0",
+			"userId": "e458",
+			"name": "Фотография для начинающих",
+			"subcategoryId": "10",
+			"createdAt": "2026-04-22T10:00:00.000Z",
+			"description": "Научу основам фотографии: выдержка, диафрагма, композиция. Снимаем на любую камеру.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["2", "10", "28", "l7w2"]
+		},
+		{
+			"id": "p0n1",
+			"userId": "a7f2",
+			"name": "Архитектурное проектирование домов",
+			"subcategoryId": "16",
+			"createdAt": "2026-04-10T09:00:00.000Z",
+			"description": "Разработаю проект частного дома или коттеджа. Учту все пожелания и особенности участка.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["17", "25", "p1n6", "e3b5"]
+		},
+		{
+			"id": "p1o2",
+			"userId": "m9k3",
+			"name": "Имидж-консультация: ваш уникальный стиль",
+			"subcategoryId": "4",
+			"createdAt": "2026-04-11T12:30:00.000Z",
+			"description": "Помогу найти свой стиль, разобрать гардероб и создать образы для работы, отдыха и особых случаев.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["2", "10", "32", "f5r0"]
+		},
+		{
+			"id": "p2p3",
+			"userId": "r2p7",
+			"name": "Сценарное мастерство и сторителлинг",
+			"subcategoryId": "14",
+			"createdAt": "2026-04-12T14:15:00.000Z",
+			"description": "Научу писать захватывающие сценарии и истории для кино, YouTube и соцсетей.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["1", "4", "9", "z9p2"]
+		},
+		{
+			"id": "p3q4",
+			"userId": "w5x1",
+			"name": "Хатха-йога для начинающих",
+			"subcategoryId": "36",
+			"createdAt": "2026-04-13T08:30:00.000Z",
+			"description": "Мягкая практика йоги для всех уровней. Учимся дышать, чувствовать тело и снимать напряжение.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["14", "16", "27", "u8l3"]
+		},
+		{
+			"id": "p4r5",
+			"userId": "d4h9",
+			"name": "Звукорежиссура и аранжировка",
+			"subcategoryId": "12",
+			"createdAt": "2026-04-14T16:00:00.000Z",
+			"description": "Научу работать со звуком, создавать аранжировки и готовить треки к релизу.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["5", "11", "29", "u5h7"]
+		},
+		{
+			"id": "p5s6",
+			"userId": "t8y6",
+			"name": "Финансовая грамотность: от зарплаты до инвестиций",
+			"subcategoryId": "31",
+			"createdAt": "2026-04-15T11:30:00.000Z",
+			"description": "Научу управлять личными финансами, копить и приумножать капитал. Практические советы.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["1", "9", "24", "s1z8"]
+		},
+		{
+			"id": "p6t7",
+			"userId": "e3b5",
+			"name": "Ремонт и отделка своими руками",
+			"subcategoryId": "34",
+			"createdAt": "2026-04-16T09:45:00.000Z",
+			"description": "Научу делать ремонт самостоятельно: шпаклевка, покраска, укладка плитки, работа с гипсокартоном.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["15", "1"]
+		},
+		{
+			"id": "p7u8",
+			"userId": "n9c2",
+			"name": "Арт-терапия: исцеление через творчество",
+			"subcategoryId": "15",
+			"createdAt": "2026-04-17T14:00:00.000Z",
+			"description": "Сеансы арт-терапии для снятия стресса, поиска внутренних ресурсов и самопознания. Не требуется художественных навыков.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["8", "16", "27", "z2n8"]
+		},
+		{
+			"id": "p8v9",
+			"userId": "s1z8",
+			"name": "Бизнес-стратегия и масштабирование",
+			"subcategoryId": "8",
+			"createdAt": "2026-04-18T10:30:00.000Z",
+			"description": "Помогу разработать стратегию роста бизнеса, найти новые каналы продаж и выйти на новый уровень.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["1", "4", "9", "24", "t8y6"]
+		},
+		{
+			"id": "p9w0",
+			"userId": "h7w4",
+			"name": "Ландшафтный дизайн: создаем сад мечты",
+			"subcategoryId": "33",
+			"createdAt": "2026-04-19T13:15:00.000Z",
+			"description": "Разработаю проект сада, помогу с выбором растений и созданием гармоничного ландшафта на участке.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["6", "10", "20", "p8q0"]
+		},
+		{
+			"id": "q0x1",
+			"userId": "x9q4",
+			"name": "Инженерное 3D-моделирование в AutoCAD",
+			"subcategoryId": "7",
+			"createdAt": "2026-04-20T08:45:00.000Z",
+			"description": "Научу создавать точные чертежи и 3D-модели в AutoCAD. Подготовка к работе в проектных бюро.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["7", "13", "30", "v6b9"]
+		},
+		{
+			"id": "q1y2",
+			"userId": "v2k6",
+			"name": "Каллиграфия и леттеринг: искусство красивого письма",
+			"subcategoryId": "9",
+			"createdAt": "2026-04-21T16:30:00.000Z",
+			"description": "Научу основам каллиграфии, работе с пером и кистями. Создаем открытки, плакаты и уникальные надписи.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["5", "10", "17", "b5m9"]
+		},
+		{
+			"id": "q2z3",
+			"userId": "y3t9",
+			"name": "Frontend-разработка: JavaScript и React",
+			"subcategoryId": "25",
+			"createdAt": "2026-04-22T11:00:00.000Z",
+			"description": "Курс по созданию интерактивных веб-приложений. Изучаем JavaScript, React, хуки и работу с API.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["7", "13", "21", "4468"]
+		},
+		{
+			"id": "q3a4",
+			"userId": "f5r0",
+			"name": "Деловая переписка и этикет",
+			"subcategoryId": "4",
+			"createdAt": "2026-04-23T09:30:00.000Z",
+			"description": "Научу правилам деловой переписки, ведению переговоров и протоколу для успешной карьеры.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["1", "4", "32", "c3v9"]
+		},
+		{
+			"id": "q4b5",
+			"userId": "p1b7",
+			"name": "Кофейная культура: от зерна до чашки",
+			"subcategoryId": "32",
+			"createdAt": "2026-04-24T14:45:00.000Z",
+			"description": "Научу выбирать зерна, настраивать оборудование и готовить эспрессо, капучино и альтернативный кофе.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["6", "15", "19", "s9m2"]
+		},
+		{
+			"id": "q5c6",
+			"userId": "u8l3",
+			"name": "Здоровый сон: практики восстановления",
+			"subcategoryId": "41",
+			"createdAt": "2026-04-25T19:00:00.000Z",
+			"description": "Помогу наладить режим сна, справиться с бессонницей и просыпаться бодрым. Комплексный подход.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["14", "16", "27", "w5x1"]
+		},
+		{
+			"id": "q6d7",
+			"userId": "j4w9",
+			"name": "Медиация и урегулирование конфликтов",
+			"subcategoryId": "3",
+			"createdAt": "2026-04-26T12:15:00.000Z",
+			"description": "Научу эффективно разрешать конфликты, находить компромиссы и выстраивать конструктивный диалог.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["1", "4", "9", "s1z8", "f5r0"]
+		},
+		{
+			"id": "q7e8",
+			"userId": "m7h2",
+			"name": "Визаж: макияж для любого типа лица",
+			"subcategoryId": "9",
+			"createdAt": "2026-04-27T10:00:00.000Z",
+			"description": "Научу подбирать косметику, делать дневной и вечерний макияж, подчеркивающий вашу природную красоту.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["2", "10", "32", "m9k3"]
+		},
+		{
+			"id": "q8f9",
+			"userId": "n6c1",
+			"name": "Спортивная психология: настрой на победу",
+			"subcategoryId": "38",
+			"createdAt": "2026-04-28T15:30:00.000Z",
+			"description": "Работа с мотивацией, страхами и психологической устойчивостью для спортсменов и активных людей.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["3", "14", "26", "c2y5"]
+		},
+		{
+			"id": "q9g0",
+			"userId": "q2z5",
+			"name": "Ювелирное мастерство: создание украшений",
+			"subcategoryId": "16",
+			"createdAt": "2026-04-29T13:00:00.000Z",
+			"description": "Научу работать с металлом, смолой и камнями. Создаем уникальные серьги, кольца и подвески.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["5", "10", "17", "x3b8"]
+		},
+		{
+			"id": "r0h1",
+			"userId": "t5x8",
+			"name": "Автоэлектрика и диагностика",
+			"subcategoryId": "34",
+			"createdAt": "2026-04-30T09:00:00.000Z",
+			"description": "Научу диагностировать неисправности, работать с электрооборудованием и обслуживать автомобиль.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["15", "19", "e3b5", "o9p6"]
+		},
+		{
+			"id": "r1i2",
+			"userId": "e1d4",
+			"name": "Осознанное потребление: zero waste жизнь",
+			"subcategoryId": "37",
+			"createdAt": "2026-05-01T11:45:00.000Z",
+			"description": "Научу сокращать отходы, выбирать экологичные альтернативы и жить в гармонии с природой.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["3", "14", "23", "k2t6"]
+		},
+		{
+			"id": "r2j3",
+			"userId": "o9p6",
+			"name": "Столярное дело: от доски до мебели",
+			"subcategoryId": "16",
+			"createdAt": "2026-05-02T14:30:00.000Z",
+			"description": "Научу работать с деревом, создавать мебель и декор своими руками. От выбора материала до финишной отделки.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["15", "17", "e3b5", "q5y1"]
+		},
+		{
+			"id": "r3k4",
+			"userId": "k3y0",
+			"name": "Генеалогия: исследуем историю рода",
+			"subcategoryId": "28",
+			"createdAt": "2026-05-03T10:15:00.000Z",
+			"description": "Помогу составить семейное древо, найти информацию о предках и сохранить историю семьи.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["12", "13", "18", "21"]
+		},
+		{
+			"id": "r4l5",
+			"userId": "r7c4",
+			"name": "Кибербезопасность для дома и бизнеса",
+			"subcategoryId": "25",
+			"createdAt": "2026-05-04T16:00:00.000Z",
+			"description": "Научу защищать данные, распознавать фишинг и настраивать безопасность устройств.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["7", "13", "21", "v6b9"]
+		},
+		{
+			"id": "r5m6",
+			"userId": "w1f9",
+			"name": "Вокал: постановка голоса и дыхания",
+			"subcategoryId": "12",
+			"createdAt": "2026-05-05T12:30:00.000Z",
+			"description": "Индивидуальные уроки вокала. Раскрою ваш голос, научу правильно дышать и уверенно петь.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["2", "5", "11", "29"]
+		},
+		{
+			"id": "r6n7",
+			"userId": "l6b3",
+			"name": "Астрология: читаем натальную карту",
+			"subcategoryId": "24",
+			"createdAt": "2026-05-06T17:15:00.000Z",
+			"description": "Научу основам астрологии, помогу разобраться в натальной карте и понять свои сильные стороны.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["8", "16", "27", "z2n8"]
+		},
+		{
+			"id": "r7o8",
+			"userId": "s9m2",
+			"name": "Кондитерское искусство: торты и десерты",
+			"subcategoryId": "32",
+			"createdAt": "2026-05-07T09:45:00.000Z",
+			"description": "Научу печь бисквиты, кремы и создавать десерты как в дорогих кондитерских. Для дома и бизнеса.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["6", "15", "19", "p1b7"]
+		},
+		{
+			"id": "r8p9",
+			"userId": "u5h7",
+			"name": "Гитара: с нуля до любимых песен",
+			"subcategoryId": "12",
+			"createdAt": "2026-05-08T14:30:00.000Z",
+			"description": "Обучение игре на гитаре для начинающих. Разбор аккордов, боя, перебора и любимых композиций.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["2", "5", "11", "29"]
+		},
+		{
+			"id": "r9q0",
+			"userId": "z2n8",
+			"name": "Детская психология: помощь родителям",
+			"subcategoryId": "38",
+			"createdAt": "2026-05-09T11:00:00.000Z",
+			"description": "Консультации по воспитанию, детским кризисам и налаживанию доверительных отношений с ребенком.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["8", "16", "22", "27"]
+		},
+		{
+			"id": "s0r1",
+			"userId": "x1r4",
+			"name": "3D-моделирование в Blender",
+			"subcategoryId": "11",
+			"createdAt": "2026-05-10T15:15:00.000Z",
+			"description": "Научу создавать 3D-модели, текстуры и анимацию в Blender. Подходит для дизайнеров и художников.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["7", "13", "y3t9", "v6b9"]
+		},
+		{
+			"id": "s1s2",
+			"userId": "c3v9",
+			"name": "Деловой этикет для руководителей",
+			"subcategoryId": "4",
+			"createdAt": "2026-05-11T10:30:00.000Z",
+			"description": "Правила делового общения, ведения переговоров и поведения на мероприятиях для топ-менеджеров.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["1", "4", "9", "f5r0"]
+		},
+		{
+			"id": "s2t3",
+			"userId": "p8q0",
+			"name": "Садоводство: от семян до урожая",
+			"subcategoryId": "33",
+			"createdAt": "2026-05-12T08:00:00.000Z",
+			"description": "Научу выращивать овощи, фрукты и зелень на участке. Органическое земледелие и уход за растениями.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["6", "20", "23", "h7w4"]
+		},
+		{
+			"id": "s3u4",
+			"userId": "j7l5",
+			"name": "Ногтевой сервис: маникюр и дизайн",
+			"subcategoryId": "16",
+			"createdAt": "2026-05-13T13:45:00.000Z",
+			"description": "Обучение маникюру и педикюру. Современные техники покрытия, дизайны и работа с материалами.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["2", "10", "m7h2", "v2k6"]
+		},
+		{
+			"id": "s4v5",
+			"userId": "k2t6",
+			"name": "Пчеловодство: мед своими руками",
+			"subcategoryId": "37",
+			"createdAt": "2026-05-14T16:30:00.000Z",
+			"description": "Научу основам пчеловодства: устройство ульев, уход за пчелами, сбор и хранение меда.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["3", "14", "23", "e1d4"]
+		},
+		{
+			"id": "s5w6",
+			"userId": "w4e7",
+			"name": "Чтение с детьми: как привить любовь к книгам",
+			"subcategoryId": "14",
+			"createdAt": "2026-05-15T10:00:00.000Z",
+			"description": "Советы по выбору литературы, совместному чтению и развитию читательского интереса у детей.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["12", "13", "18", "k3y0"]
+		},
+		{
+			"id": "s6x7",
+			"userId": "v6b9",
+			"name": "Робототехника для детей и подростков",
+			"subcategoryId": "25",
+			"createdAt": "2026-05-16T12:15:00.000Z",
+			"description": "Научу собирать и программировать роботов. Развиваем инженерное мышление и логику.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["7", "13", "21", "x9q4"]
+		},
+		{
+			"id": "s7y8",
+			"userId": "s3m0",
+			"name": "Свадебное планирование: идеальная свадьба",
+			"subcategoryId": "7",
+			"createdAt": "2026-05-17T14:45:00.000Z",
+			"description": "Помогу организовать свадьбу мечты: выбор локации, подрядчиков, контроль бюджета и сроков.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["1", "4", "9", "f5r0"]
+		},
+		{
+			"id": "s8z9",
+			"userId": "q5y1",
+			"name": "Кузнечное дело: ковка металла",
+			"subcategoryId": "16",
+			"createdAt": "2026-05-18T09:30:00.000Z",
+			"description": "Научу основам кузнечного мастерства: работа с горном, ковка, создание изделий из металла.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["15", "17", "e3b5", "o9p6"]
+		},
+		{
+			"id": "t0a1",
+			"userId": "h8n4",
+			"name": "Современные танцы: хип-хоп и джаз-фанк",
+			"subcategoryId": "13",
+			"createdAt": "2026-05-19T17:00:00.000Z",
+			"description": "Научу танцевать в современных стилях. Развитие пластики, чувства ритма и уверенности.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["2", "3", "11", "w1f9"]
+		},
+		{
+			"id": "t1b2",
+			"userId": "z9p2",
+			"name": "Копирайтинг: тексты, которые продают",
+			"subcategoryId": "2",
+			"createdAt": "2026-05-20T11:30:00.000Z",
+			"description": "Научу писать продающие тексты, создавать УТП и работать с возражениями клиентов.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["1", "4", "9", "r2p7"]
+		},
+		{
+			"id": "t2c3",
+			"userId": "d1k6",
+			"name": "Травничество: лекарственные растения",
+			"subcategoryId": "37",
+			"createdAt": "2026-05-21T13:00:00.000Z",
+			"description": "Научу собирать, сушить и применять травы для здоровья. Травяные сборы, настои и чаи.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["3", "14", "23", "k2t6"]
+		},
+		{
+			"id": "t3d4",
+			"userId": "l7w2",
+			"name": "Фотоохота: съемка дикой природы",
+			"subcategoryId": "10",
+			"createdAt": "2026-05-22T08:45:00.000Z",
+			"description": "Научу снимать животных и природу, выбирать технику и терпеливо ждать идеальный кадр.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["2", "5", "10", "28"]
+		},
+		{
+			"id": "t4e5",
+			"userId": "x3b8",
+			"name": "Мыловарение и натуральная косметика",
+			"subcategoryId": "16",
+			"createdAt": "2026-05-23T15:30:00.000Z",
+			"description": "Научу варить мыло, создавать кремы и уходовую косметику из натуральных ингредиентов.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["5", "10", "17", "q2z5"]
+		},
+		{
+			"id": "t5f6",
+			"userId": "m2v5",
+			"name": "Барменское искусство: коктейли для дома",
+			"subcategoryId": "32",
+			"createdAt": "2026-05-24T12:00:00.000Z",
+			"description": "Научу готовить классические и авторские коктейли, работать с инвентарем и удивлять гостей.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["6", "15", "19", "p1b7"]
+		},
+		{
+			"id": "t6g7",
+			"userId": "n9f6",
+			"name": "Детский этикет: хорошие манеры с детства",
+			"subcategoryId": "28",
+			"createdAt": "2026-05-25T10:15:00.000Z",
+			"description": "Уроки этикета для детей: поведение за столом, общение, правила вежливости и уважения.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["8", "16", "22", "z2n8"]
+		},
+		{
+			"id": "t7h8",
+			"userId": "r1c7",
+			"name": "Пилотирование: первые шаги в авиации",
+			"subcategoryId": "24",
+			"createdAt": "2026-05-26T14:30:00.000Z",
+			"description": "Введение в мир авиации: основы пилотирования, навигация и безопасность полетов.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["7", "13", "21", "x9q4"]
+		},
+		{
+			"id": "t8i9",
+			"userId": "t3l4",
+			"name": "Восточные танцы: грация и пластика",
+			"subcategoryId": "13",
+			"createdAt": "2026-05-27T11:45:00.000Z",
+			"description": "Обучение восточным танцам. Раскрываем женственность, развиваем пластику и чувство ритма.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["2", "3", "11", "h8n4"]
+		},
+		{
+			"id": "t9j0",
+			"userId": "w8u2",
+			"name": "Сомелье: искусство выбора вина",
+			"subcategoryId": "32",
+			"createdAt": "2026-05-28T16:15:00.000Z",
+			"description": "Научу разбираться в винах, выбирать идеальное сочетание с едой и правильно подавать напитки.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["6", "15", "19", "m2v5"]
+		},
+		{
+			"id": "u0k1",
+			"userId": "b5m9",
+			"name": "Квиллинг и бумажное творчество",
+			"subcategoryId": "9",
+			"createdAt": "2026-05-29T09:30:00.000Z",
+			"description": "Научу создавать объемные композиции из бумаги. Квиллинг, оригами и другие техники.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["5", "10", "17", "v2k6"]
+		},
+		{
+			"id": "u1l2",
+			"userId": "v9e3",
+			"name": "Кибербезопасность для начинающих",
+			"subcategoryId": "25",
+			"createdAt": "2026-05-30T12:00:00.000Z",
+			"description": "Научу основам защиты данных, распознаванию фишинговых атак и безопасному использованию интернета.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["7", "13", "21", "r7c4"]
+		},
+		{
+			"id": "u2m3",
+			"userId": "h4s7",
+			"name": "HR-менеджмент: подбор персонала",
+			"subcategoryId": "5",
+			"createdAt": "2026-05-31T10:30:00.000Z",
+			"description": "Научу проводить собеседования, оценивать кандидатов и составлять эффективные вакансии.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["1", "4", "9", "32"]
+		},
+		{
+			"id": "u3n4",
+			"userId": "c2y5",
+			"name": "Самооборона: базовые техники",
+			"subcategoryId": "40",
+			"createdAt": "2026-06-01T15:45:00.000Z",
+			"description": "Обучение базовым приемам самообороны. Развитие уверенности, реакции и физической формы.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["3", "14", "26", "n6c1"]
+		},
+		{
+			"id": "u4o5",
+			"userId": "p1n6",
+			"name": "Дизайн интерьера: стили и решения",
+			"subcategoryId": "16",
+			"createdAt": "2026-06-02T11:15:00.000Z",
+			"description": "Научу создавать уютные и стильные интерьеры, разбираться в стилях и подбирать материалы.",
+			"images": [
+				"https://img.freepik.com/premium-photo/cute-cat_113255-210139.jpg?semt=ais_hybrid&w=740",
+				"https://img.freepik.com/free-photo/relaxed-feline-enjoying-its-time-box_91128-3936.jpg?semt=ais_hybrid",
+				"https://img.freepik.com/premium-photo/there-is-cat-that-is-looking-up-camera-generative-ai_900958-76013.jpg?semt=ais_hybrid&w=740",
+				"https://images.wallpaperscraft.ru/image/single/enot_zhivotnoe_podvodnyj_1343115_1280x720.jpg",
+				"https://img.freepik.com/premium-photo/cheerful-tabby-cat-with-playful-expression-pink-background_1294860-45882.jpg?semt=ais_hybrid&w=740"
+			],
+			"userLikedIds": ["10", "17", "25", "a7f2"]
+		},
+		{
+			"userId": "lftRlvWPgRs",
+			"name": "Навык",
+			"description": "Обучу навыкам",
+			"subcategoryId": "10",
+			"images": [
+				"data:image/png;base64,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"
+			],
+			"userLikedIds": [],
+			"createdAt": "2026-03-26T16:37:22.474Z",
+			"id": "98ElP4QIP1M"
+		}
+	],
+	"subcategories": [
+		{
+			"id": "1",
+			"name": "Управление командой",
+			"categoryId": "1"
+		},
+		{
+			"id": "2",
+			"name": "Маркетинг и реклама",
+			"categoryId": "1"
+		},
+		{
+			"id": "3",
+			"name": "Продажи и переговоры",
+			"categoryId": "1"
+		},
+		{
+			"id": "4",
+			"name": "Личный бренд",
+			"categoryId": "1"
+		},
+		{
+			"id": "5",
+			"name": "Резюме и собеседование",
+			"categoryId": "1"
+		},
+		{
+			"id": "6",
+			"name": "Тайм-менеджмент",
+			"categoryId": "1"
+		},
+		{
+			"id": "7",
+			"name": "Проектное управление",
+			"categoryId": "1"
+		},
+		{
+			"id": "8",
+			"name": "Предпринимательство",
+			"categoryId": "1"
+		},
+		{
+			"id": "9",
+			"name": "Рисование и иллюстрация",
+			"categoryId": "2"
+		},
+		{
+			"id": "10",
+			"name": "Фотография",
+			"categoryId": "2"
+		},
+		{
+			"id": "11",
+			"name": "Видеомонтаж",
+			"categoryId": "2"
+		},
+		{
+			"id": "12",
+			"name": "Музыка и звук",
+			"categoryId": "2"
+		},
+		{
+			"id": "13",
+			"name": "Актёрское мастерство",
+			"categoryId": "2"
+		},
+		{
+			"id": "14",
+			"name": "Креативное письмо",
+			"categoryId": "2"
+		},
+		{
+			"id": "15",
+			"name": "Арт-терапия",
+			"categoryId": "2"
+		},
+		{
+			"id": "16",
+			"name": "Декор и DIY",
+			"categoryId": "2"
+		},
+		{
+			"id": "17",
+			"name": "Английский",
+			"categoryId": "3"
+		},
+		{
+			"id": "18",
+			"name": "Французский",
+			"categoryId": "3"
+		},
+		{
+			"id": "19",
+			"name": "Испанский",
+			"categoryId": "3"
+		},
+		{
+			"id": "20",
+			"name": "Немецкий",
+			"categoryId": "3"
+		},
+		{
+			"id": "21",
+			"name": "Китайский",
+			"categoryId": "3"
+		},
+		{
+			"id": "22",
+			"name": "Японский",
+			"categoryId": "3"
+		},
+		{
+			"id": "23",
+			"name": "Подготовка к экзаменам (IELTS, TOEFL)",
+			"categoryId": "3"
+		},
+		{
+			"id": "24",
+			"name": "Личностное развитие",
+			"categoryId": "4"
+		},
+		{
+			"id": "25",
+			"name": "Навыки обучения",
+			"categoryId": "4"
+		},
+		{
+			"id": "26",
+			"name": "Когнитивные техники",
+			"categoryId": "4"
+		},
+		{
+			"id": "27",
+			"name": "Скорочтение",
+			"categoryId": "4"
+		},
+		{
+			"id": "28",
+			"name": "Навыки преподавания",
+			"categoryId": "4"
+		},
+		{
+			"id": "29",
+			"name": "Коучинг",
+			"categoryId": "4"
+		},
+		{
+			"id": "30",
+			"name": "Уборка и организация",
+			"categoryId": "5"
+		},
+		{
+			"id": "31",
+			"name": "Домашние финансы",
+			"categoryId": "5"
+		},
+		{
+			"id": "32",
+			"name": "Приготовление еды",
+			"categoryId": "5"
+		},
+		{
+			"id": "33",
+			"name": "Домашние растения",
+			"categoryId": "5"
+		},
+		{
+			"id": "34",
+			"name": "Ремонт",
+			"categoryId": "5"
+		},
+		{
+			"id": "35",
+			"name": "Хранение вещей",
+			"categoryId": "5"
+		},
+		{
+			"id": "36",
+			"name": "Йога и медитация",
+			"categoryId": "6"
+		},
+		{
+			"id": "37",
+			"name": "Питание и ЗОЖ",
+			"categoryId": "6"
+		},
+		{
+			"id": "38",
+			"name": "Ментальное здоровье",
+			"categoryId": "6"
+		},
+		{
+			"id": "39",
+			"name": "Осознанность",
+			"categoryId": "6"
+		},
+		{
+			"id": "40",
+			"name": "Физические тренировки",
+			"categoryId": "6"
+		},
+		{
+			"id": "41",
+			"name": "Сон и восстановление",
+			"categoryId": "6"
+		},
+		{
+			"id": "42",
+			"name": "Баланс жизни и работы",
+			"categoryId": "6"
+		}
+	],
+	"users": [
+		{
+			"id": "1",
+			"name": "Иван",
+			"email": "ivan@example.com",
+			"passwordHash": "$2b$10$7YOBoGea/MGUQGaxxBfLvO2kW4zKVUFRdXL9qoJgtuCIdA41jM.ge",
+			"description": "Привет! Люблю ритм, кофе по утрам и людей, которые не боятся пробовать новое",
+			"avatar": "https://api.dicebear.com/9.x/pixel-art/svg?seed=r0qfbobo",
+			"gender": "male",
+			"birthday": "2000-01-02",
+			"cityId": "1",
+			"subcategoriesIds": ["1", "2", "3"]
+		},
+		{
+			"id": "2",
+			"name": "Анна",
+			"email": "anna@example.com",
+			"passwordHash": "$2y$12$QZqfWjC5D0nEIxBzyOgJKeSvr7rmiVwj6XzYpM6iR.HLTuHIl6FQS",
+			"description": "Путешественница, ищу вдохновение в новых местах и знакомствах.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=anna-masdvkeolspcmeepd",
+			"gender": "female",
+			"birthday": "1998-05-15",
+			"cityId": "2",
+			"subcategoriesIds": ["10", "12", "36"]
+		},
+		{
+			"id": "3",
+			"name": "Дмитрий",
+			"email": "dmitry@example.com",
+			"passwordHash": "$2y$12$cFAFXNdP/ILNnxLhBcOfGu3mVM1TFBjBKDO94IIBhtia4flSwlLK2",
+			"description": "Люблю спорт и активный отдых, готов поделиться опытом тренировок.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=dmitry-bvkewipreomvefvdoik",
+			"gender": "male",
+			"birthday": "1995-03-22",
+			"cityId": "3",
+			"subcategoriesIds": ["40", "37", "24"]
+		},
+		{
+			"id": "4",
+			"name": "Светлана",
+			"email": "svetlana@example.com",
+			"passwordHash": "$2y$12$3ZAsFmNxIPMV7iRc0ynwOeqcPQEXiKAVe.Qh55OXSktyKWdzDLvky",
+			"description": "Менеджер проектов, помогаю командам достигать целей эффективно.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=svetlana-vcdowskcmokvdpi",
+			"gender": "female",
+			"birthday": "1990-08-10",
+			"cityId": "4",
+			"subcategoriesIds": ["7", "2", "24"]
+		},
+		{
+			"id": "5",
+			"name": "Александр",
+			"email": "svetlana2@example.com",
+			"passwordHash": "$2y$12$aQUft1A0dInlUPEeexefje7AY/hbT6aTOhYuMPUKJeAI4af5LOusG",
+			"description": "Фрилансер, работаю удаленно, люблю свободу выбора и творчество.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=alexander-pmedovckdopvsmelk",
+			"gender": "male",
+			"birthday": "1988-12-05",
+			"cityId": "5",
+			"subcategoriesIds": ["12", "16", "26"]
+		},
+		{
+			"id": "6",
+			"name": "Ольга",
+			"email": "olga@example.com",
+			"passwordHash": "$2y$12$LPyCMnBUnAUWUG75nAN.yeNyIsVucWi1pxY/EGshDX4ABzuPF1WWm",
+			"description": "Любит готовить и экспериментировать с новыми рецептами.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=olga-nivdpckeosmdpcpl",
+			"gender": "female",
+			"birthday": "1992-06-20",
+			"cityId": "6",
+			"subcategoriesIds": ["32", "31", "33"]
+		},
+		{
+			"id": "7",
+			"name": "Максим",
+			"email": "maxim@example.com",
+			"passwordHash": "$2y$12$hCFmBRkUTu/mghFaUHB.V.Nkk/GZeXDDtGDQLLPGCE9IGLVBBxZZi",
+			"description": "Программист, увлечён технологиями и созданием приложений.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=maxim-dmsdkcwemldpmeklp",
+			"gender": "male",
+			"birthday": "1993-11-30",
+			"cityId": "7",
+			"subcategoriesIds": ["24", "25", "26"]
+		},
+		{
+			"id": "8",
+			"name": "Елена",
+			"email": "elena@example.com",
+			"passwordHash": "$2y$12$f5SX8pHSZWLyDvzw5H.qQuAXYYiiYl2qOVReAlN5PoeIK3ihxmGSO",
+			"description": "Психолог, помогаю людям находить гармонию внутри себя.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=elena-lksdmcewplovmcedk",
+			"gender": "female",
+			"birthday": "1987-04-18",
+			"cityId": "8",
+			"subcategoriesIds": ["38", "39", "24"]
+		},
+		{
+			"id": "9",
+			"name": "Сергей",
+			"email": "sergey@example.com",
+			"passwordHash": "$2y$12$/WSdw28CyXYktAbCCCGYeOH8W4zQRTE/VScETWoZ2Qi.YF4VNOKse",
+			"description": "Предприниматель, развиваю бизнес и ищу новые возможности.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=sergey-kvpmlsdockpevmesd",
+			"gender": "male",
+			"birthday": "1985-09-25",
+			"cityId": "9",
+			"subcategoriesIds": ["8", "2", "24"]
+		},
+		{
+			"id": "10",
+			"name": "Виктория",
+			"email": "victoria@example.com",
+			"passwordHash": "$2y$12$BSbsSpCrOWWHHQjuawrcYOWhGLctvcEKscioGH/FntREj.wdrkCXrK",
+			"description": "Художник, рисую картины и создаю иллюстрации.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=victoria-skdpemclkmpvecopd",
+			"gender": "female",
+			"birthday": "1996-07-05",
+			"cityId": "10",
+			"subcategoriesIds": ["9", "15", "16"]
+		},
+		{
+			"id": "11",
+			"name": "Михаил",
+			"email": "mikhail@example.com",
+			"passwordHash": "$2y$12$iSZKqRUWIwhGCWLWCEx2AeibifUwWOQfnOxVXTpORbh9WUUbl9nu6",
+			"description": "Музыкант, играю на гитаре и сочиняю музыку.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=mikhail-dpvkmcsledopemkdl",
+			"gender": "male",
+			"birthday": "1994-02-10",
+			"cityId": "11",
+			"subcategoriesIds": ["12", "13", "24"]
+		},
+		{
+			"id": "12",
+			"name": "Дарья",
+			"email": "darya@example.com",
+			"passwordHash": "$2y$12$oWsXByEC7e9yIZOwVm5UBuzvySCydWuwMDJUpAyYLUviAG4ZjmWsq",
+			"description": "Студентка, изучаю иностранные языки и интересуюсь культурой разных стран.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=darya-emdsklcvpoemkdcp",
+			"gender": "female",
+			"birthday": "2001-03-15",
+			"cityId": "12",
+			"subcategoriesIds": ["17", "18", "19"]
+		},
+		{
+			"id": "13",
+			"name": "Алексей",
+			"email": "aleksey@example.com",
+			"passwordHash": "$2y$12$NE0If4ngKQGSul3O5tnn8e4gJLROgfhely1Sebr1mIFkoNVtk3hhS",
+			"description": "Учитель математики, вдохновляю учеников любовью к науке.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=aleksey-wmcpekoldcplmvped",
+			"gender": "male",
+			"birthday": "1982-11-28",
+			"cityId": "13",
+			"subcategoriesIds": ["25", "26", "27"]
+		},
+		{
+			"id": "14",
+			"name": "Татьяна",
+			"email": "tatyana2@example.com",
+			"passwordHash": "$2y$12$izWYGt00wuPcPDGRttteUuUsfijrdAkSKEadujdb3NNvFKLpf/LE6",
+			"description": "Фитнес-тренер, помогаю людям становиться сильнее и здоровее.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=tatyana-cpkvedompelsdkcm",
+			"gender": "female",
+			"birthday": "1991-09-05",
+			"cityId": "14",
+			"subcategoriesIds": ["40", "37", "38"]
+		},
+		{
+			"id": "15",
+			"name": "Павел",
+			"email": "pavel@example.com",
+			"passwordHash": "$2y$12$pVEWIMo6ev3is/M5Rwy9v.rYamrHwtndWG4quEPhEwJD7muP2OTOS",
+			"description": "Специалист по ремонту, решаю любые проблемы с техникой.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=pavel-mdpelocskmvpedolk",
+			"gender": "male",
+			"birthday": "1989-06-12",
+			"cityId": "15",
+			"subcategoriesIds": ["34", "30", "31"]
+		},
+		{
+			"id": "16",
+			"name": "Кристина",
+			"email": "kristina@example.com",
+			"passwordHash": "$2y$12$miGMXOhs3ugEVwVeRK7KLeHz8gkvBL/vwz.XfT.zPLtgo5hz/gZjq",
+			"description": "Преподаватель йоги, учу осознанному дыханию и расслаблению.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=kristina-eoskdpvlcmpedoklv",
+			"gender": "female",
+			"birthday": "1997-04-25",
+			"cityId": "16",
+			"subcategoriesIds": ["36", "39", "41"]
+		},
+		{
+			"id": "17",
+			"name": "Николай",
+			"email": "nikolay@example.com",
+			"passwordHash": "$2y$12$SoP8RPTMEH0DCgdhFFXXueKpn1pVMyUCgpOnCggPXcAF45gnHmo/C",
+			"description": "Архитектор, проектирую пространства, удобные и красивые.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=nikolay-elkdpomsckvepdol",
+			"gender": "male",
+			"birthday": "1986-01-10",
+			"cityId": "1",
+			"subcategoriesIds": ["16", "32", "35"]
+		},
+		{
+			"id": "18",
+			"name": "Мария",
+			"email": "mariya@example.com",
+			"passwordHash": "$2y$12$4sEUUVtoFCY3cAWsEQTwe.vAZ2LtaqTZFRqSHzkML6YxeEpSiPvPS",
+			"description": "Библиотекарь, окружена книгами и знанием, готова делиться ими.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=mariya-opdemclvkpdomekl",
+			"gender": "female",
+			"birthday": "1999-07-20",
+			"cityId": "2",
+			"subcategoriesIds": ["24", "25", "26"]
+		},
+		{
+			"id": "19",
+			"name": "Роман",
+			"email": "roman@example.com",
+			"passwordHash": "$2y$12$B3RaVLbbHRMGeZEBdjDBIOqCNvDF5KyUMHobqFiehOYtIW6GrP5qy",
+			"description": "Водитель такси, рассказываю истории пассажиров и города.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=roman-deklmcopvelsdkp",
+			"gender": "male",
+			"birthday": "1984-03-15",
+			"cityId": "3",
+			"subcategoriesIds": ["30", "31", "32"]
+		},
+		{
+			"id": "20",
+			"name": "Наталия",
+			"email": "nataliya@example.com",
+			"passwordHash": "$2y$12$zSnG3VBST4NPKFdTDJSWeuOBJEAgzIRmPAES2V6yUX0SmIup162ou",
+			"description": "Флорист, создаю букеты, наполненные эмоциями и красотой.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=nataliya-edkomvlepcoslkdmp",
+			"gender": "female",
+			"birthday": "1995-10-28",
+			"cityId": "4",
+			"subcategoriesIds": ["33", "35", "16"]
+		},
+		{
+			"id": "21",
+			"name": "Кирилл",
+			"email": "kirill@example.com",
+			"passwordHash": "$2y$12$ERknutRRY.3j7T/eGOZ0yu/sYTVWDdyQFM0.BACXPuLRcaTo4abAi",
+			"description": "Историк, исследую прошлое и делюсь открытиями.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=kirill-pmckolvdekpmslod",
+			"gender": "male",
+			"birthday": "1983-02-05",
+			"cityId": "5",
+			"subcategoriesIds": ["24", "25", "26"]
+		},
+		{
+			"id": "22",
+			"name": "Алина",
+			"email": "alina@example.com",
+			"passwordHash": "$2y$12$RuBX2OLyIV0yIjNqXK/FO.FtzjDPV/bjkKkh.jXqEDzsCPnvjsSqS",
+			"description": "Логопед, помогаю детям развивать речь и коммуникацию.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=alina-lpdmosckepvdokml",
+			"gender": "female",
+			"birthday": "1993-08-18",
+			"cityId": "6",
+			"subcategoriesIds": ["24", "25", "26"]
+		},
+		{
+			"id": "23",
+			"name": "Андрей",
+			"email": "andrey@example.com",
+			"passwordHash": "$2y$12$6wNO4HfbnUNHkjoEWdtMNu/S1gHKMS6SCLPoBNbtDRBuVVYZSlXNK",
+			"description": "Биолог, изучаю природу и её тайны, рад делиться знаниями.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=andrey-lepdkmvolcespmod",
+			"gender": "male",
+			"birthday": "1987-12-10",
+			"cityId": "7",
+			"subcategoriesIds": ["37", "38", "39"]
+		},
+		{
+			"id": "24",
+			"name": "Виктор",
+			"email": "viktor@example.com",
+			"passwordHash": "$2y$12$X45JVbyUIwsEL7OgepyCKe.o6LfChgqGBuuBCPR1E.JsnJOti0906",
+			"description": "Экономист, анализирую рынки и даю рекомендации инвесторам.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=viktor-lodepckvmespodlk",
+			"gender": "male",
+			"birthday": "1981-05-25",
+			"cityId": "8",
+			"subcategoriesIds": ["31", "32", "33"]
+		},
+		{
+			"id": "25",
+			"name": "Диана",
+			"email": "diana@example.com",
+			"passwordHash": "$2y$12$LCfuQ981gGMg5s7yrSVFHe5iyTe9HF5TPBWZoqqpt8XHVQtQm9.e6",
+			"description": "Дизайнер интерьеров, создаю уютные и функциональные пространства.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=diana-epmkovledpcslomd",
+			"gender": "female",
+			"birthday": "1996-09-15",
+			"cityId": "9",
+			"subcategoriesIds": ["16", "30", "35"]
+		},
+		{
+			"id": "26",
+			"name": "Станислав",
+			"email": "stanislav@example.com",
+			"passwordHash": "$2y$12$ShjiBiFHMOQVK3unWwFB6.tAxNPdgIJYlw/d/KaCHnlRTAQRhmyKG",
+			"description": "Спортсмен, участвую в соревнованиях и мотивирую других.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=stanislav-lopckemdvolskpm",
+			"gender": "male",
+			"birthday": "1992-07-05",
+			"cityId": "10",
+			"subcategoriesIds": ["40", "37", "38"]
+		},
+		{
+			"id": "27",
+			"name": "Оксана",
+			"email": "oksana@example.com",
+			"passwordHash": "$2y$12$WUxSWIXneOMz487hoZVC8uoFGWUEuYLpzXHICMdx8dWUt/WIDOpdq",
+			"description": "Психотерапевт, помогаю людям справляться с трудностями и стрессом.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=oksana-plcomkvedopsldmk",
+			"gender": "female",
+			"birthday": "1989-11-20",
+			"cityId": "11",
+			"subcategoriesIds": ["38", "39", "41"]
+		},
+		{
+			"id": "28",
+			"name": "Антон",
+			"email": "anton@example.com",
+			"passwordHash": "$2y$12$DYpJxj8HThBKTdRLVG6DK.DU7LLauSaRCwwKraaa4SIhHRVWNXtuS",
+			"description": "Фотомодель, показываю красоту мира через объектив камеры.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=anton-lvmecpodklspecmo",
+			"gender": "male",
+			"birthday": "1990-06-12",
+			"cityId": "12",
+			"subcategoriesIds": ["10", "12", "16"]
+		},
+		{
+			"id": "29",
+			"name": "Евгения",
+			"email": "evgeniya2@example.com",
+			"passwordHash": "$2y$12$ZeoHPfdC.fODUSvL4oyfzeFhcHPrRo.lWRDGAKObiVDax.cINXZgu",
+			"description": "Концертмейстер, поддерживаю музыкантов на сцене и репетициях.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=evgeniya-lkmpdosvclepokmd",
+			"gender": "female",
+			"birthday": "1994-03-25",
+			"cityId": "13",
+			"subcategoriesIds": ["12", "13", "24"]
+		},
+		{
+			"id": "30",
+			"name": "Георгий",
+			"email": "georgiy@example.com",
+			"passwordHash": "$2y$12$PMCBs6UiSAdADqG4rNZCYOuyoCD0/ATJzcgEqALPsbcxpgstZcybe",
+			"description": "Учёный, занимаюсь исследованиями в области физики и технологий.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=georgiy-dolekmpcsvmopedlk",
+			"gender": "male",
+			"birthday": "1985-08-10",
+			"cityId": "14",
+			"subcategoriesIds": ["24", "25", "26"]
+		},
+		{
+			"id": "31",
+			"name": "Dmitriy",
+			"email": "ddpdsr@mail.ru",
+			"description": "Описание!",
+			"cityId": "1",
+			"birthday": "2026-03-20T19:00:00.000Z",
+			"subcategoriesIds": ["24", "25", "26"],
+			"avatar": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%20100%22%20fill%3D%22none%22%20shape-rendering%3D%22auto%22%20width%3D%22128%22%20height%3D%22128%22%3E%3Cmetadata%20xmlns%3Ardf%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%22%20xmlns%3Axsi%3D%22http%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema-instance%22%20xmlns%3Adc%3D%22http%3A%2F%2Fpurl.org%2Fdc%2Felements%2F1.1%2F%22%20xmlns%3Adcterms%3D%22http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%22%3E%3Crdf%3ARDF%3E%3Crdf%3ADescription%3E%3Cdc%3Atitle%3EThumbs%3C%2Fdc%3Atitle%3E%3Cdc%3Acreator%3EDiceBear%3C%2Fdc%3Acreator%3E%3Cdc%3Asource%20xsi%3Atype%3D%22dcterms%3AURI%22%3Ehttps%3A%2F%2Fwww.dicebear.com%3C%2Fdc%3Asource%3E%3Cdcterms%3Alicense%20xsi%3Atype%3D%22dcterms%3AURI%22%3Ehttps%3A%2F%2Fcreativecommons.org%2Fpublicdomain%2Fzero%2F1.0%2F%3C%2Fdcterms%3Alicense%3E%3Cdc%3Arights%3E%E2%80%9EThumbs%E2%80%9D%20(https%3A%2F%2Fwww.dicebear.com)%20by%20%E2%80%9EDiceBear%E2%80%9D%2C%20licensed%20under%20%E2%80%9ECC0%201.0%E2%80%9D%20(https%3A%2F%2Fcreativecommons.org%2Fpublicdomain%2Fzero%2F1.0%2F)%3C%2Fdc%3Arights%3E%3C%2Frdf%3ADescription%3E%3C%2Frdf%3ARDF%3E%3C%2Fmetadata%3E%3Cmask%20id%3D%22viewboxMask%22%3E%3Crect%20width%3D%22100%22%20height%3D%22100%22%20rx%3D%220%22%20ry%3D%220%22%20x%3D%220%22%20y%3D%220%22%20fill%3D%22%23fff%22%20%2F%3E%3C%2Fmask%3E%3Cg%20mask%3D%22url(%23viewboxMask)%22%3E%3Crect%20fill%3D%22%23f1f4dc%22%20width%3D%22100%22%20height%3D%22100%22%20x%3D%220%22%20y%3D%220%22%20%2F%3E%3Cg%20transform%3D%22translate(1%2C%202)%20rotate(17%2050%2070)%22%3E%3Cpath%20d%3D%22M95%2053.33C95%2029.4%2074.85%2010%2050%2010S5%2029.4%205%2053.33V140h90V53.33Z%22%20fill%3D%22%231c799f%22%2F%3E%3Cg%20transform%3D%22translate(29%2033)%22%3E%3Cg%20transform%3D%22translate(9%2C%20-6)%20rotate(3%2021%2021)%22%3E%3Cg%20transform%3D%22translate(0%205)%22%3E%3Cpath%20d%3D%22M11.5%206C8.29%206%207%207.36%207%208.04c0%203.4%201.29%201.35%204.5%201.35S16%2011.43%2016%208.04C16%207.36%2014.71%206%2011.5%206ZM30.5%206C27.29%206%2026%207.36%2026%208.04c0%203.4%201.29%201.35%204.5%201.35S35%2011.43%2035%208.04C35%207.36%2033.71%206%2030.5%206Z%22%20fill%3D%22%23ffffff%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate(6%2023)%22%3E%3Cpath%20d%3D%22M15%2014C1.9%2014-.72%201.29.15.23%201.03-.83%206.27%202.11%2015%202.11S28.97-.83%2029.85.23C30.72%201.3%2028.1%2014%2015%2014Z%22%20fill%3D%22%23ffffff%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+			"gender": "male",
+			"passwordHash": "$2b$10$5lFkZagG5J/VK1rOcHkUtunJARt.OcsVHfbAfTtSX4bif39wpVcv."
+		},
+		{
+			"id": "32",
+			"name": "Alexa",
+			"email": "sanekm1901@mail.ru",
+			"description": "I’m a Barbie girl, in the Barbie world\nLife in plastic, it’s fantastic",
+			"cityId": "1",
+			"birthday": "1997-01-19T19:00:00.000Z",
+			"subcategoriesIds": ["24", "25", "26"],
+			"avatar": "https://api.dicebear.com/9.x/adventurer/svg?seed=dij1f69z",
+			"gender": "female",
+			"passwordHash": "$2b$10$8tXvWep763KExyksZF2W7uGtecTbd6rFfgINvEDefO9Zi3ouBIJ3q"
+		},
+		{
+			"id": "aad5",
+			"name": "Дмитрий",
+			"email": "dpemvr@yandex.ru",
+			"gender": "male",
+			"birthday": "2005-02-20T19:00:00.000Z",
+			"cityId": "5",
+			"subcategoriesIds": ["3"],
+			"avatar": "https://api.dicebear.com/9.x/personas/svg?seed=ijtwmzly",
+			"description": "",
+			"passwordHash": "$2b$10$x2Jq.9mVOELvHcP9zULSMu8LCKvGHLjOhnK6WhEN2c7Fx/IxcTIRC"
+		},
+		{
+			"id": "ed18",
+			"name": "Иван",
+			"email": "ivan2@example.com",
+			"gender": "male",
+			"birthday": "2026-03-03T19:00:00.000Z",
+			"cityId": "4",
+			"subcategoriesIds": ["31"],
+			"avatar": "https://api.dicebear.com/9.x/personas/svg?seed=4jftzitf",
+			"description": "",
+			"passwordHash": "$2b$10$LolzFlQDENJjWWpdeignTOznaoBPbnT9w.7sNyAXcwjsBEa9N5pBu"
+		},
+		{
+			"id": "3bf0",
+			"name": "Иван3",
+			"email": "ivan3@example.com",
+			"gender": "male",
+			"birthday": "2026-03-02T19:00:00.000Z",
+			"cityId": "1",
+			"subcategoriesIds": ["9", "10"],
+			"avatar": "https://api.dicebear.com/9.x/adventurer-neutral/svg?seed=ld0lsvyw",
+			"description": "",
+			"passwordHash": "$2b$10$e4Ffu/.26DuswQUrPbIuNOln5.oW7LDL4Xcuy/pCkXJJDC.7Vbquy"
+		},
+		{
+			"id": "4468",
+			"name": "Иван",
+			"email": "ivan4@example.com",
+			"gender": "male",
+			"birthday": "2026-03-03T19:00:00.000Z",
+			"cityId": "2",
+			"subcategoriesIds": ["25"],
+			"avatar": "https://api.dicebear.com/9.x/lorelei/svg?seed=jg7lfx43",
+			"description": "",
+			"passwordHash": "$2b$10$ooemH5MbShnuOx3aI3Z9vOWaRiyJcSMlOny2l5yJVsF1ub9Jf68fS"
+		},
+		{
+			"id": "bda2",
+			"name": "Тест Ивана",
+			"email": "ivan5@example.com",
+			"gender": "male",
+			"birthday": "2026-02-27T19:00:00.000Z",
+			"cityId": "12",
+			"subcategoriesIds": ["11"],
+			"avatar": "https://api.dicebear.com/9.x/open-peeps/svg?seed=8b95ibp0",
+			"description": "Меняю данные!",
+			"passwordHash": "$2b$10$GqMlXMkbgayH0eZDcrYlGufVVp0ALg.H/8i7iB0bNDK0L7J8KBloa"
+		},
+		{
+			"name": "Дмитрий",
+			"email": "dpemvrsdf@sd.rd",
+			"gender": "male",
+			"birthday": "2026-03-18T19:00:00.000Z",
+			"cityId": "4",
+			"subcategoriesIds": ["17"],
+			"avatar": "https://api.dicebear.com/9.x/pixel-art/svg?seed=nsyeyyyl",
+			"description": "",
+			"passwordHash": "$2b$10$PLepB6xlGzyoHgTzcN43weW5uX/d/WE3vwiWYhB7hRvl03uF6Xi8y",
+			"id": "eJ7RinlTVTI"
+		},
+		{
+			"id": "e458",
+			"name": "423",
+			"email": "leha825165@gmail.com",
+			"gender": "male",
+			"birthday": "2026-03-05T22:00:00.000Z",
+			"cityId": "1",
+			"subcategoriesIds": ["10"],
+			"avatar": "https://api.dicebear.com/9.x/adventurer/svg?seed=j1etpxvt",
+			"description": "",
+			"passwordHash": "$2b$10$CM8NEokedaivsB9EES5ZZO2DtrqRxbnkaO6yOBeWSn5PT/cg9yEdO"
+		},
+		{
+			"id": "a7f2",
+			"name": "Григорий",
+			"email": "grigory@example.com",
+			"passwordHash": "$2y$12$kLmNpQrStUvWxYzAbCdEfGhIjKlMnOpQrStUvWxYzAbCdEfGhIjK",
+			"description": "Архитектор пространств, создаю функциональные и красивые интерьеры.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=grigory-7f2k9p",
+			"gender": "male",
+			"birthday": "1987-06-17",
+			"cityId": "5",
+			"subcategoriesIds": ["16", "30", "34"]
+		},
+		{
+			"id": "m9k3",
+			"name": "Валерия",
+			"email": "valeriya@example.com",
+			"passwordHash": "$2y$12$bCdEfGhIjKlMnOpQrStUvWxYzAbCdEfGhIjKlMnOpQrStUvWxYzA",
+			"description": "Стилист-имиджмейкер, помогаю находить свой уникальный образ.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=valeriya-m9k3x7",
+			"gender": "female",
+			"birthday": "1994-12-01",
+			"cityId": "6",
+			"subcategoriesIds": ["4", "9", "24"]
+		},
+		{
+			"id": "r2p7",
+			"name": "Тимофей",
+			"email": "timofey@example.com",
+			"passwordHash": "$2y$12$StUvWxYzAbCdEfGhIjKlMnOpQrStUvWxYzAbCdEfGhIjKlMnOpQ",
+			"description": "Копирайтер и сценарист, создаю тексты, которые цепляют за душу.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=timofey-r2p7l4",
+			"gender": "male",
+			"birthday": "1991-03-29",
+			"cityId": "7",
+			"subcategoriesIds": ["14", "2", "13"]
+		},
+		{
+			"id": "w5x1",
+			"name": "Полина",
+			"email": "polina@example.com",
+			"passwordHash": "$2y$12$GhIjKlMnOpQrStUvWxYzAbCdEfGhIjKlMnOpQrStUvWxYzAbCdE",
+			"description": "Фитнес-тренер по йоге, помогаю обрести гибкость и гармонию с телом.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=polina-w5x1n8",
+			"gender": "female",
+			"birthday": "1996-07-19",
+			"cityId": "8",
+			"subcategoriesIds": ["36", "39", "41"]
+		},
+		{
+			"id": "d4h9",
+			"name": "Артём",
+			"email": "artem@example.com",
+			"passwordHash": "$2y$12$KlMnOpQrStUvWxYzAbCdEfGhIjKlMnOpQrStUvWxYzAbCdEfGhI",
+			"description": "Звукорежиссёр, работаю с музыкой и аудиосопровождением.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=artem-d4h9q2",
+			"gender": "male",
+			"birthday": "1989-09-04",
+			"cityId": "9",
+			"subcategoriesIds": ["12", "11", "13"]
+		},
+		{
+			"id": "t8y6",
+			"name": "Вероника",
+			"email": "veronika@example.com",
+			"passwordHash": "$2y$12$OpQrStUvWxYzAbCdEfGhIjKlMnOpQrStUvWxYzAbCdEfGhIjKlM",
+			"description": "Специалист по финансовой грамотности, учу управлять деньгами с умом.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=veronika-t8y6c3",
+			"gender": "female",
+			"birthday": "1993-11-11",
+			"cityId": "10",
+			"subcategoriesIds": ["31", "28", "8"]
+		},
+		{
+			"id": "e3b5",
+			"name": "Константин",
+			"email": "konstantin@example.com",
+			"passwordHash": "$2y$12$YzAbCdEfGhIjKlMnOpQrStUvWxYzAbCdEfGhIjKlMnOpQrStUvWx",
+			"description": "Мастер по ремонту и отделке, делаю дом уютным и функциональным.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=konstantin-e3b5v7",
+			"gender": "male",
+			"birthday": "1985-02-22",
+			"cityId": "11",
+			"subcategoriesIds": ["34", "30", "16"]
+		},
+		{
+			"id": "n9c2",
+			"name": "Кира",
+			"email": "kira@example.com",
+			"passwordHash": "$2y$12$IjKlMnOpQrStUvWxYzAbCdEfGhIjKlMnOpQrStUvWxYzAbCdEfG",
+			"description": "Арт-терапевт, помогаю выражать эмоции через творчество.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=kira-n9c2f4",
+			"gender": "female",
+			"birthday": "1997-05-08",
+			"cityId": "12",
+			"subcategoriesIds": ["15", "38", "14"]
+		},
+		{
+			"id": "s1z8",
+			"name": "Владислав",
+			"email": "vladislav@example.com",
+			"passwordHash": "$2y$12$MnOpQrStUvWxYzAbCdEfGhIjKlMnOpQrStUvWxYzAbCdEfGhIjK",
+			"description": "Ментор по стартапам, помогаю превратить идею в успешный бизнес.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=vladislav-s1z8p5",
+			"gender": "male",
+			"birthday": "1984-10-30",
+			"cityId": "13",
+			"subcategoriesIds": ["8", "7", "29"]
+		},
+		{
+			"id": "h7w4",
+			"name": "Татьяна",
+			"email": "tatyana@example.com",
+			"passwordHash": "$2y$12$UvWxYzAbCdEfGhIjKlMnOpQrStUvWxYzAbCdEfGhIjKlMnOpQrSt",
+			"description": "Флорист и ландшафтный дизайнер, создаю красоту из растений.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=tatyana-h7w4e9",
+			"gender": "female",
+			"birthday": "1990-12-14",
+			"cityId": "14",
+			"subcategoriesIds": ["33", "16", "15"]
+		},
+		{
+			"id": "x9q4",
+			"name": "Леонид",
+			"email": "leonid@example.com",
+			"passwordHash": "$2y$12$AbCdEfGhIjKlMnOpQrStUvWxYzAbCdEfGhIjKlMnOpQrStUvWxYz",
+			"description": "Инженер-конструктор, обожаю создавать сложные механизмы и делиться опытом.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=leonid-x9q4m2",
+			"gender": "male",
+			"birthday": "1982-08-17",
+			"cityId": "15",
+			"subcategoriesIds": ["34", "7", "26"]
+		},
+		{
+			"id": "v2k6",
+			"name": "София",
+			"email": "sofia@example.com",
+			"passwordHash": "$2y$12$BcDeFgHiJkLmNoPqRsTuVwXyZaBcDeFgHiJkLmNoPqRsTuVwXy",
+			"description": "Каллиграф и леттеринг-художник, учу красиво писать и создавать шрифты.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=sofia-v2k6r8",
+			"gender": "female",
+			"birthday": "1995-03-18",
+			"cityId": "16",
+			"subcategoriesIds": ["9", "14", "16"]
+		},
+		{
+			"id": "y3t9",
+			"name": "Даниил",
+			"email": "daniil@example.com",
+			"passwordHash": "$2y$12$CdEfGhIjKlMnOpQrStUvWxYzAbCdEfGhIjKlMnOpQrStUvWxYzA",
+			"description": "Web-разработчик, учу создавать сайты с нуля до полного функционала.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=daniil-y3t9p1",
+			"gender": "male",
+			"birthday": "1993-11-27",
+			"cityId": "1",
+			"subcategoriesIds": ["25", "26", "24"]
+		},
+		{
+			"id": "f5r0",
+			"name": "Алиса",
+			"email": "alisa@example.com",
+			"passwordHash": "$2y$12$DeFgHiJkLmNoPqRsTuVwXyZaBcDeFgHiJkLmNoPqRsTuVwXyZ",
+			"description": "Эксперт по этикету и деловому общению, учу уверенно держаться в любом обществе.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=alisa-f5r0e4",
+			"gender": "female",
+			"birthday": "1989-09-09",
+			"cityId": "2",
+			"subcategoriesIds": ["4", "24", "29"]
+		},
+		{
+			"id": "p1b7",
+			"name": "Егор",
+			"email": "egor@example.com",
+			"passwordHash": "$2y$12$EfGhIjKlMnOpQrStUvWxYzAbCdEfGhIjKlMnOpQrStUvWxYzAbC",
+			"description": "Бариста и кофейный эксперт, научу готовить идеальный кофе в домашних условиях.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=egor-p1b7u3",
+			"gender": "male",
+			"birthday": "1992-06-05",
+			"cityId": "3",
+			"subcategoriesIds": ["32", "37"]
+		},
+		{
+			"id": "u8l3",
+			"name": "Маргарита",
+			"email": "margarita@example.com",
+			"passwordHash": "$2y$12$FgHiJkLmNoPqRsTuVwXyZaBcDeFgHiJkLmNoPqRsTuVwXyZaBc",
+			"description": "Специалист по сну и восстановлению, помогаю наладить режим и высыпаться.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=margarita-u8l3c7",
+			"gender": "female",
+			"birthday": "1994-12-22",
+			"cityId": "4",
+			"subcategoriesIds": ["41", "39", "38"]
+		},
+		{
+			"id": "j4w9",
+			"name": "Станислав",
+			"email": "stanislav2@example.com",
+			"passwordHash": "$2y$12$GhIjKlMnOpQrStUvWxYzAbCdEfGhIjKlMnOpQrStUvWxYzAbCd",
+			"description": "Переговорщик и медиатор, учу находить компромиссы в сложных ситуациях.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=stanislav-j4w9s5",
+			"gender": "male",
+			"birthday": "1986-04-12",
+			"cityId": "5",
+			"subcategoriesIds": ["3", "24", "29"]
+		},
+		{
+			"id": "m7h2",
+			"name": "Евгения",
+			"email": "evgeniya@example.com",
+			"passwordHash": "$2y$12$HiJkLmNoPqRsTuVwXyZaBcDeFgHiJkLmNoPqRsTuVwXyZaBcD",
+			"description": "Визажист и бьюти-эксперт, учу подчеркивать природную красоту.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=evgeniya-m7h2d9",
+			"gender": "female",
+			"birthday": "1991-10-28",
+			"cityId": "6",
+			"subcategoriesIds": ["4", "9"]
+		},
+		{
+			"id": "n6c1",
+			"name": "Илья",
+			"email": "ilya@example.com",
+			"passwordHash": "$2y$12$IjKlMnOpQrStUvWxYzAbCdEfGhIjKlMnOpQrStUvWxYzAbCdE",
+			"description": "Спортивный психолог, помогаю достигать целей и не бояться неудач.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=ilya-n6c1f6",
+			"gender": "male",
+			"birthday": "1988-07-15",
+			"cityId": "7",
+			"subcategoriesIds": ["38", "40", "24"]
+		},
+		{
+			"id": "q2z5",
+			"name": "Злата",
+			"email": "zlatа@example.com",
+			"passwordHash": "$2y$12$JkLmNoPqRsTuVwXyZaBcDeFgHiJkLmNoPqRsTuVwXyZaBcDeF",
+			"description": "Ювелир и дизайнер украшений, создаю уникальные изделия ручной работы.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=zlata-q2z5g8",
+			"gender": "female",
+			"birthday": "1997-02-14",
+			"cityId": "8",
+			"subcategoriesIds": ["16", "9", "15"]
+		},
+		{
+			"id": "t5x8",
+			"name": "Василий",
+			"email": "vasily@example.com",
+			"passwordHash": "$2y$12$KlMnOpQrStUvWxYzAbCdEfGhIjKlMnOpQrStUvWxYzAbCdEfG",
+			"description": "Автомеханик, учу основам обслуживания автомобиля и устранению неполадок.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=vasily-t5x8p3",
+			"gender": "male",
+			"birthday": "1984-11-19",
+			"cityId": "9",
+			"subcategoriesIds": ["34", "30"]
+		},
+		{
+			"id": "e1d4",
+			"name": "Варвара",
+			"email": "varvara@example.com",
+			"passwordHash": "$2y$12$LmNoPqRsTuVwXyZaBcDeFgHiJkLmNoPqRsTuVwXyZaBcDeFgH",
+			"description": "Эколог и осознанный потребитель, учу сокращать отходы и жить экологично.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=varvara-e1d4k7",
+			"gender": "female",
+			"birthday": "1993-05-03",
+			"cityId": "10",
+			"subcategoriesIds": ["37", "33", "31"]
+		},
+		{
+			"id": "o9p6",
+			"name": "Борис",
+			"email": "boris@example.com",
+			"passwordHash": "$2y$12$MnOpQrStUvWxYzAbCdEfGhIjKlMnOpQrStUvWxYzAbCdEfGhI",
+			"description": "Столяр-краснодеревщик, учу работать с деревом и создавать мебель своими руками.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=boris-o9p6l1",
+			"gender": "male",
+			"birthday": "1980-09-27",
+			"cityId": "11",
+			"subcategoriesIds": ["16", "34"]
+		},
+		{
+			"id": "k3y0",
+			"name": "Лидия",
+			"email": "lidiya@example.com",
+			"passwordHash": "$2y$12$NoPqRsTuVwXyZaBcDeFgHiJkLmNoPqRsTuVwXyZaBcDeFgHiJ",
+			"description": "Генеалог, помогаю составлять семейное древо и исследовать историю рода.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=lidiya-k3y0q4",
+			"gender": "female",
+			"birthday": "1978-12-31",
+			"cityId": "12",
+			"subcategoriesIds": ["28", "14", "24"]
+		},
+		{
+			"id": "r7c4",
+			"name": "Матвей",
+			"email": "matvey@example.com",
+			"passwordHash": "$2y$12$OpQrStUvWxYzAbCdEfGhIjKlMnOpQrStUvWxYzAbCdEfGhIjK",
+			"description": "Системный администратор, учу основам компьютерной безопасности и настройке ПО.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=matvey-r7c4t2",
+			"gender": "male",
+			"birthday": "1996-08-08",
+			"cityId": "13",
+			"subcategoriesIds": ["25", "26"]
+		},
+		{
+			"id": "w1f9",
+			"name": "Мирослава",
+			"email": "miroslava@example.com",
+			"passwordHash": "$2y$12$PqRsTuVwXyZaBcDeFgHiJkLmNoPqRsTuVwXyZaBcDeFgHiJkL",
+			"description": "Преподаватель вокала, помогаю раскрыть голос и научиться петь с нуля.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=miroslava-w1f9a6",
+			"gender": "female",
+			"birthday": "1995-10-11",
+			"cityId": "14",
+			"subcategoriesIds": ["12", "13"]
+		},
+		{
+			"id": "l6b3",
+			"name": "Арсений",
+			"email": "arseniy@example.com",
+			"passwordHash": "$2y$12$QrStUvWxYzAbCdEfGhIjKlMnOpQrStUvWxYzAbCdEfGhIjKlM",
+			"description": "Астролог, помогаю понять себя через звезды и планировать жизнь с учетом циклов.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=arseniy-l6b3h8",
+			"gender": "male",
+			"birthday": "1987-01-25",
+			"cityId": "15",
+			"subcategoriesIds": ["24", "39"]
+		},
+		{
+			"id": "s9m2",
+			"name": "Аделина",
+			"email": "adelina@example.com",
+			"passwordHash": "$2y$12$RsTuVwXyZaBcDeFgHiJkLmNoPqRsTuVwXyZaBcDeFgHiJkLmN",
+			"description": "Кондитер, учу печь изысканные десерты и торты для любого праздника.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=adelina-s9m2u5",
+			"gender": "female",
+			"birthday": "1992-04-17",
+			"cityId": "16",
+			"subcategoriesIds": ["32", "16"]
+		},
+		{
+			"id": "u5h7",
+			"name": "Родион",
+			"email": "rodion@example.com",
+			"passwordHash": "$2y$12$StUvWxYzAbCdEfGhIjKlMnOpQrStUvWxYzAbCdEfGhIjKlMnO",
+			"description": "Преподаватель игры на гитаре, учу с нуля и помогаю освоить любимые песни.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=rodion-u5h7e3",
+			"gender": "male",
+			"birthday": "1989-03-21",
+			"cityId": "17",
+			"subcategoriesIds": ["12", "13"]
+		},
+		{
+			"id": "z2n8",
+			"name": "Ярослава",
+			"email": "yaroslava@example.com",
+			"passwordHash": "$2y$12$TuVwXyZaBcDeFgHiJkLmNoPqRsTuVwXyZaBcDeFgHiJkLmNoP",
+			"description": "Специалист по детской психологии, помогаю родителям понять своих детей.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=yaroslava-z2n8c9",
+			"gender": "female",
+			"birthday": "1985-07-07",
+			"cityId": "1",
+			"subcategoriesIds": ["38", "24"]
+		},
+		{
+			"id": "x1r4",
+			"name": "Игнат",
+			"email": "ignat@example.com",
+			"passwordHash": "$2y$12$UvWxYzAbCdEfGhIjKlMnOpQrStUvWxYzAbCdEfGhIjKlMnOpQ",
+			"description": "Специалист по 3D-моделированию, учу создавать трёхмерные объекты и сцены.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=ignat-x1r4k2",
+			"gender": "male",
+			"birthday": "1994-09-30",
+			"cityId": "2",
+			"subcategoriesIds": ["11", "9", "26"]
+		},
+		{
+			"id": "c3v9",
+			"name": "Эмилия",
+			"email": "emiliya@example.com",
+			"passwordHash": "$2y$12$VwXyZaBcDeFgHiJkLmNoPqRsTuVwXyZaBcDeFgHiJkLmNoPqR",
+			"description": "Специалист по этикету и протоколу, учу правильному поведению в деловой среде.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=emiliya-c3v9w7",
+			"gender": "female",
+			"birthday": "1990-11-15",
+			"cityId": "3",
+			"subcategoriesIds": ["4", "3", "24"]
+		},
+		{
+			"id": "p8q0",
+			"name": "Елисей",
+			"email": "elisey@example.com",
+			"passwordHash": "$2y$12$WxYzAbCdEfGhIjKlMnOpQrStUvWxYzAbCdEfGhIjKlMnOpQrS",
+			"description": "Садовник-озеленитель, учу создавать красивые сады и ухаживать за растениями.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=elisey-p8q0t4",
+			"gender": "male",
+			"birthday": "1983-06-12",
+			"cityId": "4",
+			"subcategoriesIds": ["33", "16"]
+		},
+		{
+			"id": "j7l5",
+			"name": "Таисия",
+			"email": "taisiya@example.com",
+			"passwordHash": "$2y$12$XyZaBcDeFgHiJkLmNoPqRsTuVwXyZaBcDeFgHiJkLmNoPqRsT",
+			"description": "Мастер по маникюру и педикюру, учу современным техникам и дизайнам.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=taisiya-j7l5a1",
+			"gender": "female",
+			"birthday": "1996-05-26",
+			"cityId": "5",
+			"subcategoriesIds": ["16", "9"]
+		},
+		{
+			"id": "k2t6",
+			"name": "Савва",
+			"email": "savva@example.com",
+			"passwordHash": "$2y$12$YzAbCdEfGhIjKlMnOpQrStUvWxYzAbCdEfGhIjKlMnOpQrStU",
+			"description": "Пчеловод, учу основам бортничества и производству натурального меда.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=savva-k2t6d8",
+			"gender": "male",
+			"birthday": "1979-08-03",
+			"cityId": "6",
+			"subcategoriesIds": ["37", "32"]
+		},
+		{
+			"id": "w4e7",
+			"name": "Антонина",
+			"email": "antonina@example.com",
+			"passwordHash": "$2y$12$ZaBcDeFgHiJkLmNoPqRsTuVwXyZaBcDeFgHiJkLmNoPqRsTuV",
+			"description": "Библиотекарь и специалист по чтению, учу выбирать книги и прививать любовь к литературе.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=antonina-w4e7g3",
+			"gender": "female",
+			"birthday": "1982-02-28",
+			"cityId": "7",
+			"subcategoriesIds": ["14", "28"]
+		},
+		{
+			"id": "v6b9",
+			"name": "Демид",
+			"email": "demid@example.com",
+			"passwordHash": "$2y$12$AbCdEfGhIjKlMnOpQrStUvWxYzAbCdEfGhIjKlMnOpQrStUvW",
+			"description": "Робототехник, учу собирать и программировать роботов для детей и взрослых.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=demid-v6b9c4",
+			"gender": "male",
+			"birthday": "1998-10-19",
+			"cityId": "8",
+			"subcategoriesIds": ["25", "7", "26"]
+		},
+		{
+			"id": "s3m0",
+			"name": "Любовь",
+			"email": "lyubov@example.com",
+			"passwordHash": "$2y$12$BcDeFgHiJkLmNoPqRsTuVwXyZaBcDeFgHiJkLmNoPqRsTuVwX",
+			"description": "Свадебный организатор, учу планировать идеальные мероприятия без стресса.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=lyubov-s3m0f5",
+			"gender": "female",
+			"birthday": "1988-12-09",
+			"cityId": "9",
+			"subcategoriesIds": ["7", "16", "30"]
+		},
+		{
+			"id": "q5y1",
+			"name": "Гордей",
+			"email": "gordey@example.com",
+			"passwordHash": "$2y$12$CdEfGhIjKlMnOpQrStUvWxYzAbCdEfGhIjKlMnOpQrStUvWxY",
+			"description": "Кузнец, учу основам кузнечного дела и созданию кованых изделий.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=gordey-q5y1p9",
+			"gender": "male",
+			"birthday": "1981-03-14",
+			"cityId": "10",
+			"subcategoriesIds": ["16", "34"]
+		},
+		{
+			"id": "h8n4",
+			"name": "Эльвира",
+			"email": "elvira@example.com",
+			"passwordHash": "$2y$12$DeFgHiJkLmNoPqRsTuVwXyZaBcDeFgHiJkLmNoPqRsTuVwXyZ",
+			"description": "Танцевальный тренер, учу современным танцам и пластике тела.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=elvira-h8n4j2",
+			"gender": "female",
+			"birthday": "1993-06-30",
+			"cityId": "11",
+			"subcategoriesIds": ["13", "36", "40"]
+		},
+		{
+			"id": "z9p2",
+			"name": "Владлен",
+			"email": "vladlen@example.com",
+			"passwordHash": "$2y$12$EfGhIjKlMnOpQrStUvWxYzAbCdEfGhIjKlMnOpQrStUvWxYzA",
+			"description": "Копирайтер и редактор, учу писать продающие тексты и работать со словом.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=vladlen-z9p2v6",
+			"gender": "male",
+			"birthday": "1985-09-16",
+			"cityId": "12",
+			"subcategoriesIds": ["14", "2", "4"]
+		},
+		{
+			"id": "d1k6",
+			"name": "Бронислава",
+			"email": "bronislava@example.com",
+			"passwordHash": "$2y$12$FgHiJkLmNoPqRsTuVwXyZaBcDeFgHiJkLmNoPqRsTuVwXyZaB",
+			"description": "Эксперт по травничеству, учу использовать силу растений для здоровья.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=bronislava-d1k6q3",
+			"gender": "female",
+			"birthday": "1977-11-22",
+			"cityId": "13",
+			"subcategoriesIds": ["37", "33", "38"]
+		},
+		{
+			"id": "l7w2",
+			"name": "Трофим",
+			"email": "trofim@example.com",
+			"passwordHash": "$2y$12$GhIjKlMnOpQrStUvWxYzAbCdEfGhIjKlMnOpQrStUvWxYzAbC",
+			"description": "Фотограф дикой природы, учу снимать животных и природу в естественной среде.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=trofim-l7w2x9",
+			"gender": "male",
+			"birthday": "1990-04-08",
+			"cityId": "14",
+			"subcategoriesIds": ["10", "11"]
+		},
+		{
+			"id": "x3b8",
+			"name": "Калерия",
+			"email": "kaleriya@example.com",
+			"passwordHash": "$2y$12$HiJkLmNoPqRsTuVwXyZaBcDeFgHiJkLmNoPqRsTuVwXyZaBcD",
+			"description": "Мастер мыловарения, учу создавать натуральное мыло и косметику ручной работы.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=kaleriya-x3b8e1",
+			"gender": "female",
+			"birthday": "1991-07-24",
+			"cityId": "15",
+			"subcategoriesIds": ["16", "15", "37"]
+		},
+		{
+			"id": "m2v5",
+			"name": "Остап",
+			"email": "ostap@example.com",
+			"passwordHash": "$2y$12$IjKlMnOpQrStUvWxYzAbCdEfGhIjKlMnOpQrStUvWxYzAbCdE",
+			"description": "Бармен, учу искусству приготовления коктейлей и работе с гостями.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=ostap-m2v5h7",
+			"gender": "male",
+			"birthday": "1992-02-19",
+			"cityId": "16",
+			"subcategoriesIds": ["32", "3"]
+		},
+		{
+			"id": "n9f6",
+			"name": "Агата",
+			"email": "agata@example.com",
+			"passwordHash": "$2y$12$JkLmNoPqRsTuVwXyZaBcDeFgHiJkLmNoPqRsTuVwXyZaBcDeF",
+			"description": "Специалист по этикету для детей, учу хорошим манерам с раннего возраста.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=agata-n9f6p4",
+			"gender": "female",
+			"birthday": "1987-12-13",
+			"cityId": "17",
+			"subcategoriesIds": ["4", "24", "28"]
+		},
+		{
+			"id": "r1c7",
+			"name": "Захар",
+			"email": "zahar@example.com",
+			"passwordHash": "$2y$12$KlMnOpQrStUvWxYzAbCdEfGhIjKlMnOpQrStUvWxYzAbCdEfG",
+			"description": "Пилот-инструктор, учу основам пилотирования и авиационной безопасности.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=zahar-r1c7g2",
+			"gender": "male",
+			"birthday": "1983-05-05",
+			"cityId": "1",
+			"subcategoriesIds": ["24", "25"]
+		},
+		{
+			"id": "t3l4",
+			"name": "Фатима",
+			"email": "fatima@example.com",
+			"passwordHash": "$2y$12$LmNoPqRsTuVwXyZaBcDeFgHiJkLmNoPqRsTuVwXyZaBcDeFgH",
+			"description": "Мастер восточных танцев, учу красоте и пластике традиционных движений.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=fatima-t3l4y8",
+			"gender": "female",
+			"birthday": "1994-08-29",
+			"cityId": "2",
+			"subcategoriesIds": ["13", "36"]
+		},
+		{
+			"id": "w8u2",
+			"name": "Назар",
+			"email": "nazar@example.com",
+			"passwordHash": "$2y$12$MnOpQrStUvWxYzAbCdEfGhIjKlMnOpQrStUvWxYzAbCdEfGhI",
+			"description": "Сомелье, учу разбираться в винах и правильно их подавать.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=nazar-w8u2k5",
+			"gender": "male",
+			"birthday": "1986-10-02",
+			"cityId": "3",
+			"subcategoriesIds": ["32", "37"]
+		},
+		{
+			"id": "b5m9",
+			"name": "Оксана",
+			"email": "oksana2@example.com",
+			"passwordHash": "$2y$12$NoPqRsTuVwXyZaBcDeFgHiJkLmNoPqRsTuVwXyZaBcDeFgHiJ",
+			"description": "Мастер квиллинга и бумажного творчества, учу создавать шедевры из бумаги.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=oksana-b5m9a6",
+			"gender": "female",
+			"birthday": "1989-01-18",
+			"cityId": "4",
+			"subcategoriesIds": ["9", "16", "15"]
+		},
+		{
+			"id": "v9e3",
+			"name": "Клим",
+			"email": "klim@example.com",
+			"passwordHash": "$2y$12$OpQrStUvWxYzAbCdEfGhIjKlMnOpQrStUvWxYzAbCdEfGhIjK",
+			"description": "Специалист по кибербезопасности, учу защищать данные и безопасно работать в сети.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=klim-v9e3c8",
+			"gender": "male",
+			"birthday": "1995-11-07",
+			"cityId": "5",
+			"subcategoriesIds": ["25", "26"]
+		},
+		{
+			"id": "h4s7",
+			"name": "Диана",
+			"email": "diana2@example.com",
+			"passwordHash": "$2y$12$PqRsTuVwXyZaBcDeFgHiJkLmNoPqRsTuVwXyZaBcDeFgHiJkL",
+			"description": "Специалист по подбору персонала, учу проходить собеседования и составлять резюме.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=diana-h4s7q2",
+			"gender": "female",
+			"birthday": "1991-04-04",
+			"cityId": "6",
+			"subcategoriesIds": ["5", "29", "3"]
+		},
+		{
+			"id": "c2y5",
+			"name": "Руслан",
+			"email": "ruslan@example.com",
+			"passwordHash": "$2y$12$QrStUvWxYzAbCdEfGhIjKlMnOpQrStUvWxYzAbCdEfGhIjKlM",
+			"description": "Инструктор по самообороне, учу базовым техникам защиты и уверенности.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=ruslan-c2y5v4",
+			"gender": "male",
+			"birthday": "1984-07-21",
+			"cityId": "7",
+			"subcategoriesIds": ["40", "24"]
+		},
+		{
+			"id": "p1n6",
+			"name": "Амалия",
+			"email": "amaliya@example.com",
+			"passwordHash": "$2y$12$RsTuVwXyZaBcDeFgHiJkLmNoPqRsTuVwXyZaBcDeFgHiJkLmN",
+			"description": "Дизайнер интерьеров, учу создавать уютные и стильные пространства.",
+			"avatar": "https://api.dicebear.com/9.x/thumbs/svg?seed=amaliya-p1n6b7",
+			"gender": "female",
+			"birthday": "1992-09-09",
+			"cityId": "8",
+			"subcategoriesIds": ["16", "30", "34"]
+		},
+		{
+			"name": "Дмитрий",
+			"email": "dpemvr2@yandex.ru",
+			"gender": "male",
+			"birthday": "2026-03-03T19:00:00.000Z",
+			"cityId": "1",
+			"subcategoriesIds": ["1"],
+			"avatar": "https://api.dicebear.com/9.x/open-peeps/svg?seed=ohjb4jcu",
+			"description": "",
+			"passwordHash": "$2b$10$fnGmIKMapyiTbIHBrtBIKO/GNU1gltcTfpHzAUenVMOdHioMoU5PO",
+			"id": "lftRlvWPgRs"
+		}
+	],
+	"$schema": "./node_modules/json-server/schema.json"
+}

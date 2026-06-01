@@ -6,6 +6,6 @@ export const getCategories = async (req: Request, res: Response) => {
 		const categories = await prisma.category.findMany()
 		res.json(categories)
 	} catch (error) {
-		res.status(500).json({ error: 'Failed to fetch categories' })
+		res.status(500).json({ error: 'Упс! Что то не так!' })
 	}
 }

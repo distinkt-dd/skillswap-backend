@@ -5,8 +5,6 @@ import { AuthRequest } from '../middlewares/auth.middleware'
 import { TLoginUser, TUpdateUser, TUser } from '../types'
 import { generateToken } from '../utils/jwt.util'
 
-// GET /users?email=... (для логина возвращаем с passwordHash)
-
 export const checkMe = async (req: AuthRequest, res: Response) => {
 	try {
 		const id = req.userId
@@ -23,7 +21,7 @@ export const checkMe = async (req: AuthRequest, res: Response) => {
 		})
 	} catch (err) {
 		console.error(err)
-		res.status(500).json({ message: 'Login failed' })
+		res.status(500).json({ message: 'Упс! Что то не так!' })
 	}
 }
 
@@ -33,12 +31,16 @@ export const loginUser = async (req: Request, res: Response) => {
 
 		const user = await prisma.user.findUnique({ where: { email } })
 		if (!user) {
-			return res.status(401).json({ message: 'Invalid email or password' })
+			return res
+				.status(401)
+				.json({ message: 'Не корректный email или пароль!' })
 		}
 
 		const isPasswordValid = await bcrypt.compare(password, user.passwordHash)
 		if (!isPasswordValid) {
-			return res.status(401).json({ message: 'Invalid email or password' })
+			return res
+				.status(401)
+				.json({ message: 'Не корректный email или пароль!' })
 		}
 
 		const { passwordHash, ...userWithoutHash } = user
@@ -50,7 +52,7 @@ export const loginUser = async (req: Request, res: Response) => {
 		})
 	} catch (error) {
 		console.error(error)
-		res.status(500).json({ message: 'Login failed' })
+		res.status(500).json({ message: 'Упс! Что то не то!' })
 	}
 }
 
@@ -73,23 +75,25 @@ export const getUserById = async (req: Request, res: Response) => {
 				subcategoriesIds: true,
 			},
 		})
-		if (!user) return res.status(404).json({ message: 'User not found' })
+		if (!user)
+			return res.status(404).json({ message: 'Пользователь не найден!' })
 		res.json(user as TUser)
 	} catch (error) {
-		res.status(500).json({ message: 'Internal server error' })
+		res.status(500).json({ message: 'Упс! Что то не так!' })
 	}
 }
 
 // POST /users (регистрация)
 export const registerUser = async (req: Request, res: Response) => {
 	try {
-		const { password, ...rest } = req.body // на клиенте уже хеширован
-		// Проверка существования email уже выполнена на фронте, но дублируем
+		const { password, ...rest } = req.body
 		const existing = await prisma.user.findUnique({
 			where: { email: rest.email },
 		})
 		if (existing) {
-			return res.status(400).json({ message: 'User already exists' })
+			return res
+				.status(400)
+				.json({ message: 'Пользователь с таким email уже существует!' })
 		}
 
 		const saltRounds = 10
@@ -113,7 +117,7 @@ export const registerUser = async (req: Request, res: Response) => {
 		})
 	} catch (error) {
 		console.error(error)
-		res.status(500).json({ message: 'Registration failed' })
+		res.status(500).json({ message: 'Упс! Что то не так!' })
 	}
 }
 
@@ -121,7 +125,6 @@ export const getUsers = async (req: Request, res: Response) => {
 	try {
 		const { email } = req.query
 
-		// Если передан email, возвращаем пользователя (без passwordHash)
 		if (email && typeof email === 'string') {
 			const user = await prisma.user.findUnique({
 				where: { email },
@@ -138,13 +141,10 @@ export const getUsers = async (req: Request, res: Response) => {
 				},
 			})
 			if (!user) {
-				// Фронт ожидает пустой массив, а не 404
 				return res.status(200).json([])
 			}
 			return res.json([user])
 		}
-
-		// Иначе возвращаем всех пользователей (только публичные поля)
 		const users = await prisma.user.findMany({
 			select: {
 				id: true,
@@ -161,7 +161,7 @@ export const getUsers = async (req: Request, res: Response) => {
 		res.json(users as TUser[])
 	} catch (error) {
 		console.error(error)
-		res.status(500).json({ message: 'Internal server error' })
+		res.status(500).json({ message: 'Упс! Что то не так!' })
 	}
 }
 
@@ -202,7 +202,7 @@ export const updateUserData = async (req: AuthRequest, res: Response) => {
 		res.json(userWithoutHash as TUser)
 	} catch (error) {
 		console.error(error)
-		res.status(500).json({ message: 'Update failed' })
+		res.status(500).json({ message: 'Упс! Что то не так!' })
 	}
 }
 
@@ -219,9 +219,9 @@ export const updateUserPassword = async (req: AuthRequest, res: Response) => {
 			where: { id },
 			data: { passwordHash },
 		})
-		res.json({ message: 'Password updated successfully' })
+		res.json({ message: 'Пароль обновлен успешно!' })
 	} catch (error) {
-		res.status(500).json({ message: 'Password update failed' })
+		res.status(500).json({ message: 'Упс! Что то не так!' })
 	}
 }
 
@@ -235,6 +235,6 @@ export const deleteUser = async (req: AuthRequest, res: Response) => {
 		await prisma.user.delete({ where: { id } })
 		res.status(204).send()
 	} catch (error) {
-		res.status(500).json({ message: 'Deletion failed' })
+		res.status(500).json({ message: 'Упс! Что то не так!' })
 	}
 }

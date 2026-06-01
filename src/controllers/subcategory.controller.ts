@@ -7,6 +7,6 @@ export const getSubcategories = async (req: Request, res: Response) => {
 		const subcategories = await prisma.subcategory.findMany()
 		res.json(subcategories)
 	} catch (error) {
-		res.status(500).json({ error: 'Failed to fetch subcategories' })
+		res.status(500).json({ error: 'Упс! Что то не так!' })
 	}
 }

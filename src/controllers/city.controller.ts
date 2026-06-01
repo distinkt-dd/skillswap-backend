@@ -6,6 +6,6 @@ export const getCities = async (req: Request, res: Response) => {
 		const cities = await prisma.city.findMany()
 		res.json(cities)
 	} catch (error) {
-		res.status(500).json({ error: 'Failed to fetch cities' })
+		res.status(500).json({ error: 'Упс! Что то не так!' })
 	}
 }

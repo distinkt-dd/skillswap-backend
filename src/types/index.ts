@@ -15,7 +15,7 @@ export interface TServerUser extends TUser {
 }
 
 export type TRegisterUser = Omit<TUser, 'id'> & {
-	password: string // на клиенте он хешируется, но тип остаётся
+	password: string
 }
 
 export type TLoginUser = {
@@ -30,27 +30,21 @@ export type TUpdateUserPass = {
 
 export type TUpdateUser = Partial<Omit<TUser, 'id'>> & { id: string }
 
-// Categories
 export interface TCategory {
 	id: string
 	name: string
 	type: 'business' | 'creative' | 'languages' | 'education' | 'home' | 'health'
 }
-
-// Subcategories
 export interface TSubCategory {
 	id: string
 	name: string
 	categoryId: string
 }
 
-// Cities
 export interface TCity {
 	id: string
 	name: string
 }
-
-// Offers
 export interface TOffer {
 	id: string
 	userId: string

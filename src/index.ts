@@ -25,9 +25,9 @@ app.use('/favorites', favoriteRoutes)
 
 // Обработка ошибок 404
 app.use((req, res) => {
-	res.status(404).json({ error: 'Not found' })
+	res.status(404).json({ error: 'Не найден!' })
 })
 
 app.listen(PORT, () => {
-	console.log(`Server running on port ${PORT}`)
+	console.log(`Сервер запущен, порт ${PORT}`)
 })
