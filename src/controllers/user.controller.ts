@@ -6,18 +6,39 @@ import { TLoginUser, TUpdateUser, TUser } from '../types'
 import { generateToken } from '../utils/jwt.util'
 
 // GET /users?email=... (для логина возвращаем с passwordHash)
+
+export const checkMe = async (req: AuthRequest, res: Response) => {
+	try {
+		const id = req.userId
+		const user = await prisma.user.findUnique({ where: { id } })
+		if (!user) {
+			return res.status(401).json({ message: 'Пользователь не авторизован' })
+		}
+		const { passwordHash, ...userWithoutHash } = user
+		const token = generateToken(user.id)
+
+		res.json({
+			user: userWithoutHash as TUser,
+			token,
+		})
+	} catch (err) {
+		console.error(err)
+		res.status(500).json({ message: 'Login failed' })
+	}
+}
+
 export const loginUser = async (req: Request, res: Response) => {
 	try {
 		const { email, password }: TLoginUser = req.body
 
 		const user = await prisma.user.findUnique({ where: { email } })
 		if (!user) {
-			return res.status(401).json({ error: 'Invalid email or password' })
+			return res.status(401).json({ message: 'Invalid email or password' })
 		}
 
 		const isPasswordValid = await bcrypt.compare(password, user.passwordHash)
 		if (!isPasswordValid) {
-			return res.status(401).json({ error: 'Invalid email or password' })
+			return res.status(401).json({ message: 'Invalid email or password' })
 		}
 
 		const { passwordHash, ...userWithoutHash } = user
@@ -25,11 +46,11 @@ export const loginUser = async (req: Request, res: Response) => {
 
 		res.json({
 			user: userWithoutHash as TUser,
-			token
+			token,
 		})
 	} catch (error) {
 		console.error(error)
-		res.status(500).json({ error: 'Login failed' })
+		res.status(500).json({ message: 'Login failed' })
 	}
 }
 
@@ -49,13 +70,13 @@ export const getUserById = async (req: Request, res: Response) => {
 				gender: true,
 				birthday: true,
 				cityId: true,
-				subcategoriesIds: true
-			}
+				subcategoriesIds: true,
+			},
 		})
-		if (!user) return res.status(404).json({ error: 'User not found' })
+		if (!user) return res.status(404).json({ message: 'User not found' })
 		res.json(user as TUser)
 	} catch (error) {
-		res.status(500).json({ error: 'Internal server error' })
+		res.status(500).json({ message: 'Internal server error' })
 	}
 }
 
@@ -65,10 +86,10 @@ export const registerUser = async (req: Request, res: Response) => {
 		const { password, ...rest } = req.body // на клиенте уже хеширован
 		// Проверка существования email уже выполнена на фронте, но дублируем
 		const existing = await prisma.user.findUnique({
-			where: { email: rest.email }
+			where: { email: rest.email },
 		})
 		if (existing) {
-			return res.status(400).json({ error: 'User already exists' })
+			return res.status(400).json({ message: 'User already exists' })
 		}
 
 		const saltRounds = 10
@@ -78,8 +99,8 @@ export const registerUser = async (req: Request, res: Response) => {
 			data: {
 				...rest,
 				passwordHash,
-				subcategoriesIds: rest.subcategoriesIds || []
-			}
+				subcategoriesIds: rest.subcategoriesIds || [],
+			},
 		})
 
 		const token = generateToken(newUser.id)
@@ -88,11 +109,11 @@ export const registerUser = async (req: Request, res: Response) => {
 
 		res.status(201).json({
 			user: userWithoutHash as TUser,
-			token
+			token,
 		})
 	} catch (error) {
 		console.error(error)
-		res.status(500).json({ error: 'Registration failed' })
+		res.status(500).json({ message: 'Registration failed' })
 	}
 }
 
@@ -113,8 +134,8 @@ export const getUsers = async (req: Request, res: Response) => {
 					gender: true,
 					birthday: true,
 					cityId: true,
-					subcategoriesIds: true
-				}
+					subcategoriesIds: true,
+				},
 			})
 			if (!user) {
 				// Фронт ожидает пустой массив, а не 404
@@ -134,13 +155,13 @@ export const getUsers = async (req: Request, res: Response) => {
 				gender: true,
 				birthday: true,
 				cityId: true,
-				subcategoriesIds: true
-			}
+				subcategoriesIds: true,
+			},
 		})
 		res.json(users as TUser[])
 	} catch (error) {
 		console.error(error)
-		res.status(500).json({ error: 'Internal server error' })
+		res.status(500).json({ message: 'Internal server error' })
 	}
 }
 
@@ -149,7 +170,7 @@ export const updateUserData = async (req: AuthRequest, res: Response) => {
 	try {
 		const { id } = req.params
 		if (req.userId !== id) {
-			return res.status(403).json({ error: 'Forbidden' })
+			return res.status(403).json({ message: 'Forbidden' })
 		}
 		const data: Partial<TUpdateUser> = req.body
 
@@ -167,21 +188,21 @@ export const updateUserData = async (req: AuthRequest, res: Response) => {
 		if (data.subcategoriesIds !== undefined) {
 			// Фильтруем undefined и пустые значения
 			const cleaned = data.subcategoriesIds.filter(
-				(id): id is string => id !== undefined && id !== null
+				(id): id is string => id !== undefined && id !== null,
 			)
 			updateData.subcategoriesIds = cleaned
 		}
 
 		const updated = await prisma.user.update({
 			where: { id },
-			data: updateData
+			data: updateData,
 		})
 
 		const { passwordHash, ...userWithoutHash } = updated
 		res.json(userWithoutHash as TUser)
 	} catch (error) {
 		console.error(error)
-		res.status(500).json({ error: 'Update failed' })
+		res.status(500).json({ message: 'Update failed' })
 	}
 }
 
@@ -190,17 +211,17 @@ export const updateUserPassword = async (req: AuthRequest, res: Response) => {
 	try {
 		const { id } = req.params
 		if (req.userId !== id) {
-			return res.status(403).json({ error: 'Forbidden' })
+			return res.status(403).json({ message: 'Forbidden' })
 		}
 		const { newPassword } = req.body
 		const passwordHash = await bcrypt.hash(newPassword, 10)
 		const updated = await prisma.user.update({
 			where: { id },
-			data: { passwordHash }
+			data: { passwordHash },
 		})
 		res.json({ message: 'Password updated successfully' })
 	} catch (error) {
-		res.status(500).json({ error: 'Password update failed' })
+		res.status(500).json({ message: 'Password update failed' })
 	}
 }
 
@@ -209,11 +230,11 @@ export const deleteUser = async (req: AuthRequest, res: Response) => {
 	try {
 		const { id } = req.params
 		if (req.userId !== id) {
-			return res.status(403).json({ error: 'Forbidden' })
+			return res.status(403).json({ message: 'Forbidden' })
 		}
 		await prisma.user.delete({ where: { id } })
 		res.status(204).send()
 	} catch (error) {
-		res.status(500).json({ error: 'Deletion failed' })
+		res.status(500).json({ message: 'Deletion failed' })
 	}
 }

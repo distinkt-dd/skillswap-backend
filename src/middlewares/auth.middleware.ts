@@ -8,7 +8,7 @@ export interface AuthRequest extends Request {
 export const authMiddleware = (
 	req: AuthRequest,
 	res: Response,
-	next: NextFunction
+	next: NextFunction,
 ) => {
 	const authHeader = req.headers.authorization
 	if (!authHeader || !authHeader.startsWith('Bearer ')) {
