@@ -1,13 +1,15 @@
 import { Router } from 'express'
 import {
 	getFavorites,
-	updateFavorites
+	updateFavorites,
 } from '../controllers/favorite.controller'
 import { authMiddleware } from '../middlewares/auth.middleware'
+import { validate } from '../middlewares/validate.middleware'
+import { favoritesUpdateSchema } from '../schemas/offers.schema'
 
 const router = Router()
-router.use(authMiddleware) // все эндпоинты требуют аутентификации
+router.use(authMiddleware)
 router.get('/', getFavorites)
-router.put('/', updateFavorites)
+router.put('/', validate(favoritesUpdateSchema), updateFavorites)
 
 export default router
