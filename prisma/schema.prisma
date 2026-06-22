@@ -12,21 +12,52 @@ datasource db {
   provider = "postgresql"
 }
 
+enum ApplicationStatus {
+  PENDING // Ожидает ответа
+  ACCEPTED // Принято (Обмен состоялся)
+  REJECTED // Отклонено
+}
+
+model Application {
+  id String @id @default(cuid())
+
+  // Кто отправляет запрос
+  userFromId String @map("user_from_id")
+  userFrom   User   @relation("SentApplications", fields: [userFromId], references: [id])
+
+  // Кому отправляют запрос (владелец оффера)
+  userToId String @map("user_to_id")
+  userTo   User   @relation("ReceivedApplications", fields: [userToId], references: [id])
+
+  // На какой оффер пришла заявка
+  offerId String @map("offer_id")
+  offer   Offer  @relation(fields: [offerId], references: [id])
+
+  status ApplicationStatus @default(PENDING)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@map("applications")
+}
+
 model User {
-  id               String   @id @default(cuid())
-  name             String
-  email            String   @unique
-  passwordHash     String // хеш, полученный с клиента
-  description      String   @default("")
-  avatar           String   @default("")
-  gender           String   @default("")
-  birthday         String   @default("")
-  cityId           String
-  subcategoriesIds Json     @default("[]") // храним как JSON-массив строк
-  favorites        Json     @default("[]") // массив ID избранных пользователей
-  offers           Offer[]
-  createdAt        DateTime @default(now())
-  updatedAt        DateTime @updatedAt
+  id                   String        @id @default(cuid())
+  name                 String
+  email                String        @unique
+  passwordHash         String // хеш, полученный с клиента
+  description          String        @default("")
+  avatar               String        @default("")
+  gender               String        @default("")
+  birthday             String        @default("")
+  cityId               String
+  subcategoriesIds     Json          @default("[]") // храним как JSON-массив строк
+  favorites            Json          @default("[]") // массив ID избранных пользователей
+  offers               Offer[]
+  sentApplications     Application[] @relation("SentApplications")
+  receivedApplications Application[] @relation("ReceivedApplications")
+  createdAt            DateTime      @default(now())
+  updatedAt            DateTime      @updatedAt
 
   @@map("users")
 }
@@ -58,17 +89,18 @@ model City {
 }
 
 model Offer {
-  id            String      @id @default(cuid())
+  id            String        @id @default(cuid())
   userId        String
-  user          User        @relation(fields: [userId], references: [id])
+  user          User          @relation(fields: [userId], references: [id])
   name          String
   subcategoryId String
-  subcategory   Subcategory @relation(fields: [subcategoryId], references: [id])
+  subcategory   Subcategory   @relation(fields: [subcategoryId], references: [id])
   description   String
-  images        Json        @default("[]") // массив строк (URL картинок)
-  userLikedIds  Json        @default("[]") // массив ID пользователей, кто лайкнул
+  images        Json          @default("[]") // массив строк (URL картинок)
+  userLikedIds  Json          @default("[]") // массив ID пользователей, кто лайкнул
   createdAt     String // ISO строка, т.к. на фронте используется
   updatedAt     String?
+  applications  Application[]
 
   @@map("offers")
 }
