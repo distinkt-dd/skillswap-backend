@@ -17,7 +17,7 @@ export const checkMe = async (req: AuthRequest, res: Response) => {
 
 		res.json({
 			user: userWithoutHash as TUser,
-			token,
+			token
 		})
 	} catch (err) {
 		console.error(err)
@@ -48,7 +48,7 @@ export const loginUser = async (req: Request, res: Response) => {
 
 		res.json({
 			user: userWithoutHash as TUser,
-			token,
+			token
 		})
 	} catch (error) {
 		console.error(error)
@@ -72,8 +72,8 @@ export const getUserById = async (req: Request, res: Response) => {
 				gender: true,
 				birthday: true,
 				cityId: true,
-				subcategoriesIds: true,
-			},
+				subcategoriesIds: true
+			}
 		})
 		if (!user)
 			return res.status(404).json({ message: 'Пользователь не найден!' })
@@ -88,7 +88,7 @@ export const registerUser = async (req: Request, res: Response) => {
 	try {
 		const { password, ...rest } = req.body
 		const existing = await prisma.user.findUnique({
-			where: { email: rest.email },
+			where: { email: rest.email }
 		})
 		if (existing) {
 			return res
@@ -103,8 +103,8 @@ export const registerUser = async (req: Request, res: Response) => {
 			data: {
 				...rest,
 				passwordHash,
-				subcategoriesIds: rest.subcategoriesIds || [],
-			},
+				subcategoriesIds: rest.subcategoriesIds || []
+			}
 		})
 
 		const token = generateToken(newUser.id)
@@ -113,7 +113,7 @@ export const registerUser = async (req: Request, res: Response) => {
 
 		res.status(201).json({
 			user: userWithoutHash as TUser,
-			token,
+			token
 		})
 	} catch (error) {
 		console.error(error)
@@ -137,8 +137,8 @@ export const getUsers = async (req: Request, res: Response) => {
 					gender: true,
 					birthday: true,
 					cityId: true,
-					subcategoriesIds: true,
-				},
+					subcategoriesIds: true
+				}
 			})
 			if (!user) {
 				return res.status(200).json([])
@@ -155,8 +155,8 @@ export const getUsers = async (req: Request, res: Response) => {
 				gender: true,
 				birthday: true,
 				cityId: true,
-				subcategoriesIds: true,
-			},
+				subcategoriesIds: true
+			}
 		})
 		res.json(users as TUser[])
 	} catch (error) {
@@ -188,14 +188,14 @@ export const updateUserData = async (req: AuthRequest, res: Response) => {
 		if (data.subcategoriesIds !== undefined) {
 			// Фильтруем undefined и пустые значения
 			const cleaned = data.subcategoriesIds.filter(
-				(id): id is string => id !== undefined && id !== null,
+				(id): id is string => id !== undefined && id !== null
 			)
 			updateData.subcategoriesIds = cleaned
 		}
 
 		const updated = await prisma.user.update({
 			where: { id },
-			data: updateData,
+			data: updateData
 		})
 
 		const { passwordHash, ...userWithoutHash } = updated
@@ -217,7 +217,7 @@ export const updateUserPassword = async (req: AuthRequest, res: Response) => {
 		const passwordHash = await bcrypt.hash(newPassword, 10)
 		const updated = await prisma.user.update({
 			where: { id },
-			data: { passwordHash },
+			data: { passwordHash }
 		})
 		res.json({ message: 'Пароль обновлен успешно!' })
 	} catch (error) {

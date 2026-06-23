@@ -2,6 +2,7 @@ import cors from 'cors'
 import 'dotenv/config'
 import express from 'express'
 
+import applicationRoutes from './routes/application.routes' // новый импорт
 import categoryRoutes from './routes/category.routes'
 import cityRoutes from './routes/city.routes'
 import favoriteRoutes from './routes/favorite.routes'
@@ -22,6 +23,7 @@ app.use('/subcategories', subcategoryRoutes)
 app.use('/cities', cityRoutes)
 app.use('/offers', offerRoutes)
 app.use('/favorites', favoriteRoutes)
+app.use('/applications', applicationRoutes) // подключение роутера заявок
 
 // Обработка ошибок 404
 app.use((req, res) => {

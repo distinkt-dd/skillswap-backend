@@ -10,7 +10,7 @@ export const getOffers = async (req: Request, res: Response) => {
 		const formatted = offers.map(offer => ({
 			...offer,
 			images: offer.images as string[],
-			userLikedIds: offer.userLikedIds as string[],
+			userLikedIds: offer.userLikedIds as string[]
 		}))
 		res.json(formatted as TOffer[])
 	} catch (error) {
@@ -28,7 +28,24 @@ export const getOfferById = async (req: Request, res: Response) => {
 		res.json({
 			...offer,
 			images: offer.images as string[],
-			userLikedIds: offer.userLikedIds as string[],
+			userLikedIds: offer.userLikedIds as string[]
+		} as TOffer)
+	} catch (error) {
+		res.status(500).json({ error: 'Упс! Что то не так!' })
+	}
+}
+
+export const getOfferByUser = async (req: Request, res: Response) => {
+	try {
+		const { userId } = req.params
+		const userResultId = Array.isArray(userId) ? userId[0] : userId
+		const offer = await prisma.offer.findUnique({ where: { id: userResultId } })
+		if (!offer)
+			return res.status(404).json({ error: 'Предложение не найдено!' })
+		res.json({
+			...offer,
+			images: offer.images as string[],
+			userLikedIds: offer.userLikedIds as string[]
 		} as TOffer)
 	} catch (error) {
 		res.status(500).json({ error: 'Упс! Что то не так!' })
@@ -50,7 +67,7 @@ export const createOffer = async (req: AuthRequest, res: Response) => {
 		}
 
 		const subcategory = await prisma.subcategory.findUnique({
-			where: { id: data.subcategoryId },
+			where: { id: data.subcategoryId }
 		})
 		if (!subcategory) {
 			return res.status(400).json({ error: 'Не найдена подкатегория!' })
@@ -64,14 +81,14 @@ export const createOffer = async (req: AuthRequest, res: Response) => {
 				description: data.description,
 				images: cleanStringArray(data.images),
 				userLikedIds: [],
-				createdAt: new Date().toISOString(),
-			},
+				createdAt: new Date().toISOString()
+			}
 		})
 
 		res.status(201).json({
 			...newOffer,
 			images: newOffer.images as string[],
-			userLikedIds: newOffer.userLikedIds as string[],
+			userLikedIds: newOffer.userLikedIds as string[]
 		})
 	} catch (error) {
 		console.error('Ошибка создания оффера:', error)
@@ -95,13 +112,13 @@ export const updateOffer = async (req: AuthRequest, res: Response) => {
 				description: data.description,
 				images: data.images,
 				userLikedIds: data.userLikedIds,
-				updatedAt: new Date().toISOString(),
-			},
+				updatedAt: new Date().toISOString()
+			}
 		})
 		res.json({
 			...updated,
 			images: updated.images as string[],
-			userLikedIds: updated.userLikedIds as string[],
+			userLikedIds: updated.userLikedIds as string[]
 		})
 	} catch (error) {
 		res.status(500).json({ error: 'Упс! Что то не так!' })

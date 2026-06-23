@@ -3,38 +3,38 @@ import { prisma } from '../lib/prisma'
 import { AuthRequest } from '../middlewares/auth.middleware'
 
 export const createApplication = async (req: AuthRequest, res: Response) => {
-	const userId = req.userId // ID текущего пользователя (отправитель)
-	const { offer_id } = req.params
+	const userId = req.userId
+	const { offerId, userToId } = req.params
 
 	if (!userId) {
 		return res.status(401).json({ message: 'Вы должны быть авторизованы' })
 	}
 
-	const offerId = Array.isArray(offer_id) ? offer_id[0] : offer_id
+	// Приводим к строке
+	const offerIdStr = Array.isArray(offerId) ? offerId[0] : offerId
+
+	const userToIdStr = Array.isArray(userToId) ? userToId[0] : userToId
 
 	const offer = await prisma.offer.findUnique({
-		where: { id: offerId },
+		where: { id: offerIdStr } // теперь точно строка
 	})
 
 	if (!offer) {
 		return res.status(404).json({ message: 'Предложение не найдено!' })
 	}
 
-	const userToId = offer.userId
-
-	if (userId === userToId) {
+	if (userId === userToIdStr) {
 		return res.status(400).json({
-			message: 'Вы не можете отправить заявку на собственное предложение',
+			message: 'Вы не можете отправить заявку на собственное предложение'
 		})
 	}
 
-	// Проверяем, нет ли уже существующей активной заявки на этот оффер от этого пользователя
 	const existingApp = await prisma.application.findFirst({
 		where: {
 			userFromId: userId,
-			offerId,
-			status: 'PENDING',
-		},
+			offerId: offerIdStr,
+			status: 'PENDING'
+		}
 	})
 
 	if (existingApp) {
@@ -46,10 +46,10 @@ export const createApplication = async (req: AuthRequest, res: Response) => {
 	const application = await prisma.application.create({
 		data: {
 			userFromId: userId,
-			userToId: userToId,
-			offerId: offerId,
-			status: 'PENDING',
-		},
+			userToId: userToIdStr,
+			offerId: offerIdStr,
+			status: 'PENDING'
+		}
 	})
 
 	return res.status(201).json(application)
@@ -64,34 +64,41 @@ export const getAcceptedOffers = async (req: AuthRequest, res: Response) => {
 
 	const applications = await prisma.application.findMany({
 		where: {
-			status: 'ACCEPTED',
-			OR: [{ userFromId: userId }, { userToId: userId }],
+			OR: [
+				{
+					userFromId: userId,
+					OR: [{ status: 'ACCEPTED' }, { status: 'REJECTED' }]
+				},
+				{
+					userToId: userId,
+					OR: [{ status: 'ACCEPTED' }, { status: 'REJECTED' }]
+				}
+			]
 		},
 		select: {
-			offer: true,
-		},
+			offer: true
+		}
 	})
 
-	const offers = applications.map(app => app.offer)
-	return res.json(offers)
+	return res.json(applications)
 }
 
 export const getReceivedApplications = async (
 	req: AuthRequest,
-	res: Response,
+	res: Response
 ) => {
 	const userId = req.userId
 
 	const applications = await prisma.application.findMany({
 		where: {
 			userToId: userId,
-			status: 'PENDING',
+			status: 'PENDING'
 		},
 		include: {
 			userFrom: { select: { name: true, avatar: true } },
-			offer: { select: { name: true } },
+			offer: true
 		},
-		orderBy: { createdAt: 'desc' },
+		orderBy: { createdAt: 'desc' }
 	})
 
 	return res.json(applications)
@@ -99,29 +106,28 @@ export const getReceivedApplications = async (
 
 export const updateApplicationStatus = async (
 	req: AuthRequest,
-	res: Response,
+	res: Response
 ) => {
 	const userId = req.userId
 	const { applicationId } = req.params
+	const { status } = req.body
 
-	const application_id = Array.isArray(applicationId)
+	const applicationIdStr = Array.isArray(applicationId)
 		? applicationId[0]
 		: applicationId
-	const { status } = req.body // 'ACCEPTED' или 'REJECTED'
 
 	if (!['ACCEPTED', 'REJECTED'].includes(status)) {
 		return res.status(400).json({ message: 'Неверный статус' })
 	}
 
 	const application = await prisma.application.findUnique({
-		where: { id: application_id },
+		where: { id: applicationIdStr }
 	})
 
 	if (!application) {
 		return res.status(404).json({ message: 'Заявка не найдена' })
 	}
 
-	// Важно: только получатель заявки может её принять или отклонить
 	if (application.userToId !== userId) {
 		return res
 			.status(403)
@@ -129,8 +135,8 @@ export const updateApplicationStatus = async (
 	}
 
 	const updatedApp = await prisma.application.update({
-		where: { id: application_id },
-		data: { status: status as any },
+		where: { id: applicationIdStr },
+		data: { status: status as any }
 	})
 
 	return res.json(updatedApp)

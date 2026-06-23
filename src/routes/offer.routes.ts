@@ -3,26 +3,28 @@ import {
 	createOffer,
 	deleteOffer,
 	getOfferById,
+	getOfferByUser,
 	getOffers,
-	updateOffer,
+	updateOffer
 } from '../controllers/offer.controller'
 import { authMiddleware } from '../middlewares/auth.middleware'
 import { validate } from '../middlewares/validate.middleware'
 import {
 	createOfferSchema,
-	offerDataUpdateSchema,
+	offerDataUpdateSchema
 } from '../schemas/offers.schema'
 
 const router = Router()
 
 router.get('/', getOffers)
+router.get('/byUser/:userId', authMiddleware, getOfferByUser)
 router.get('/:id', getOfferById)
 router.post('/', authMiddleware, validate(createOfferSchema), createOffer)
 router.patch(
 	'/:id',
 	authMiddleware,
 	validate(offerDataUpdateSchema),
-	updateOffer,
+	updateOffer
 )
 router.delete('/:id', authMiddleware, deleteOffer)
 
