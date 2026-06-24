@@ -16,22 +16,25 @@ enum ApplicationStatus {
   PENDING // Ожидает ответа
   ACCEPTED // Принято (Обмен состоялся)
   REJECTED // Отклонено
+  CANCELED // Завершено сотрудничество
 }
 
 model Application {
   id String @id @default(cuid())
 
-  // Кто отправляет запрос
   userFromId String @map("user_from_id")
   userFrom   User   @relation("SentApplications", fields: [userFromId], references: [id])
 
-  // Кому отправляют запрос (владелец оффера)
   userToId String @map("user_to_id")
   userTo   User   @relation("ReceivedApplications", fields: [userToId], references: [id])
 
-  // На какой оффер пришла заявка
+  // 1. Добавляем имя связи "RequestedOffer"
   offerId String @map("offer_id")
-  offer   Offer  @relation(fields: [offerId], references: [id])
+  offer   Offer  @relation("RequestedOffer", fields: [offerId], references: [id])
+
+  // 2. Добавляем имя связи "ReturningOffer"
+  offerToId String @map("offer_to_id")
+  offerTo   Offer @relation("ReturningOffer", fields: [offerToId], references: [id])
 
   status ApplicationStatus @default(PENDING)
 
@@ -40,6 +43,7 @@ model Application {
 
   @@map("applications")
 }
+
 
 model User {
   id                   String        @id @default(cuid())
@@ -96,11 +100,16 @@ model Offer {
   subcategoryId String
   subcategory   Subcategory   @relation(fields: [subcategoryId], references: [id])
   description   String
-  images        Json          @default("[]") // массив строк (URL картинок)
-  userLikedIds  Json          @default("[]") // массив ID пользователей, кто лайкнул
-  createdAt     String // ISO строка, т.к. на фронте используется
+  images        Json          @default("[]")
+  userLikedIds  Json          @default("[]")
+  createdAt     String 
   updatedAt     String?
-  applications  Application[]
+
+  // 3. Теперь создаем ДВА разных списка заявок вместо одного
+  // Заявки, в которых запрашивают ЭТОТ оффер
+  applications      Application[] @relation("RequestedOffer")
+  // Заявки, в которых ЭТОТ оффер предлагается в ответ
+  returnApplications Application[] @relation("ReturningOffer")
 
   @@map("offers")
 }
